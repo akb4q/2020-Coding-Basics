@@ -26,14 +26,11 @@
 
 Windows 平台：
 
-- MarkdownPad
-- MarPad
-
-Linux 平台：
-- ReText
+- [MarkdownPad](http://markdownpad.com/)
+- [MarPad](http://code52.org/DownmarkerWPF/)
 
 Mac 平台
-- Mou
+- [Mou](http://25.io/mou/)
 
 浏览器插件
 - MaDe (Chrome)
