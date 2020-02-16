@@ -1,5 +1,3 @@
-# 2020-Programming-Basics-
-
 # 2020 编程基础
 
 网络给予我们自由。这意味着在疫情阶段这个特殊时期里的课程，被迫地可以更自由地支配学习时间，提高学习效率。
@@ -8,29 +6,43 @@
 
 所以该课程不仅要学习编程基础的知识，并且希望获得更多自由支配所带来的乐趣。
 
+---
 
-Markdown
-
-https://www.markdown.cn/
-
-Markdown 是在第一周里，我希望大家学习的第一个编程语言。就像我现在写的这个文本，就是用 Markdown 生成的 。
-
-严格来说 Markdown 类似于 HTML  ，是一种标记语言。语法非常简单。但是问题来了，通过文本编辑器不是也一样很方便的可以书写吗？
-
-如果只是本地书写，不需要转换成网页，确实不用学，毕竟学习任何一门新的语言都要学习新语法，会有一条学习曲线，这非常讨厌！
-
-| Markdown 语法的目标是：成为一种适用于网络的书写语言。
-
-Github 对 Markdown 支持非常友好，在所有项目里都能找到 README.md ，后缀为 .md 的就是 Mardown 文件。
-
-￼
-
-https://github.com/2019ncovmemory/nCovMemory
-
-这个项目完全是用 Markdown 生成的。 （#唠叨# 编程就像是在学习一门语言，这没有办法！一旦掌握了基本语法，并且经常反复用它，读它，就像你掌握了一门外语一样，开始会有点生涩，但很洋气，不是吗？）
+### Markdown
 
 
-Github
+
+[Markdown](https://www.markdown.cn/) 是在第一周里，我希望大家学习的第一个编程语言。就像我现在写的这个文本，就是用 Markdown 生成的 。
+
+严格来说 Markdown 类似于 [HTML](https://zh.wikipedia.org/zh-cn/HTML)  ，是一种标记语言。语法[非常简单](https://www.markdownguide.org/cheat-sheet/)。但是问题来了，通过文本编辑器不是也一样很方便的可以书写吗？
+
+如果只是本地书写，不需要转换成网页，确实不用学. 毕竟学习任何一门新的语言都要学习新语法，会有一条学习曲线，这非常讨厌！
+
+> Markdown 语法的目标是：成为一种适用于网络的书写语言。
+
+举例 Github 对 Markdown 支持非常友好，在所有项目里都能找到 README.md ，后缀为 ".md "  的就是 Mardown 文件。[这个](https://github.com/2019ncovmemory/nCovMemory)项目完全是用 Markdown 生成的。 也可能目前完全不知道我在说什么，因为习惯性思维，这些粗体，链接，引用等都是理所当然的存在，但是电脑通过 Markdown 明白了一切所给出的指令，并很好的呈现了出来。
+
+推荐几款 Markdown 编辑器，以便预览：
+
+Windows 平台：
+
+- MarkdownPad
+- MarPad
+
+Linux 平台：
+- ReText
+
+Mac 平台
+- Mou
+
+浏览器插件
+- MaDe (Chrome)
+
+
+（#唠叨# 编程就像是在学习一门语言，这没有办法！一旦掌握了基本语法，并且经常反复用它，读它，就像你掌握了一门外语一样，开始会有点生涩，但很洋气，不是吗？）
+
+
+### Github
 
 Github 是我希望大家掌握的第一个工具。它是全球程序员使用率最高的版本管理平台。
 
