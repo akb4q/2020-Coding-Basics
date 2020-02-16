@@ -22,7 +22,7 @@
 
 举例 Github 对 Markdown 支持非常友好，在所有项目里都能找到 README.md ，后缀为 ".md "  的就是 Mardown 文件。[这个](https://github.com/2019ncovmemory/nCovMemory)项目完全是用 Markdown 生成的。 也可能目前完全不知道我在说什么，因为习惯性思维，这些粗体，链接，引用等都是理所当然的存在，但是电脑通过 Markdown 明白了一切所给出的指令，并很好的呈现了出来。
 
-推荐几款 Markdown 编辑器，以便预览：
+推荐几款 Markdown 编辑器，以便预览, 因为在学习初期我们需要不断地通过预览刺激分泌催产素，从而获得成就感：
 
 Windows 平台：
 
