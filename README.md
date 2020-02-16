@@ -64,7 +64,7 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 
 为了刺激大家的需求感，只能通过布置作业来完成以下任务：
 
-通过阅读[该书](https://a.temporaryrecord.com/Permanent_Record_-_CN_edition_with_underlined_redactions.pdf)---> 用 Markdown 写一篇感想 ---> 并注册一个 Github 账号 --->把感想放上去，和这个世界打一声招呼: Hello World!
+通过阅读[该书](https://a.temporaryrecord.com/Permanent_Record_-_CN_edition_with_underlined_redactions.pdf)--->写一篇感想 ---> 并注册一个 Github 账号 --->把感想放上去，和这个世界打一声招呼: Hello World!
 
 
 （唠叨： 目前还没有给大家讲解任何关于两者的实际操作，希望自己能够先去探索，实践，就像在《旷野之息》）
