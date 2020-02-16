@@ -11,8 +11,6 @@
 
 ## Markdown
 
-
-
 [Markdown](https://www.markdown.cn/) 是在第一周里，我希望大家学习的第一个编程语言。就像我现在写的这个文本，就是用 Markdown 生成的 。
 
 严格来说 Markdown 类似于 [HTML](https://zh.wikipedia.org/zh-cn/HTML)  ，是一种标记语言。语法[非常简单](https://www.markdownguide.org/cheat-sheet/)。但是问题来了，通过文本编辑器不是也一样很方便的可以书写吗？
@@ -39,7 +37,6 @@ Mac 平台
 
 ## Github
 
-
 Github 是我希望大家掌握的第一个工具。它是全球程序员使用率最高的版本管理平台。
 
 虽然 Github 本质上是一个很冰冷的技术平台，但它的成功完全来自于分享文化，我们把这种文化称之为“开源 Open Source” 。
@@ -52,7 +49,6 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 
 
 ## 第一周的任务
-
 
 无论是 Markdown 还是 Github, 目前都不需要完全弄懂它，因为你的需求还没有产生。
 
