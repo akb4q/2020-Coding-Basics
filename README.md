@@ -4,10 +4,9 @@
 
 如何自由支配？完全取决与个人的兴趣，无论线上还是线下，应该都是一样的。任何高效率的学习来自于专注，专注来自兴趣。
 
-所以该课程不仅要学习编程基础的知识，并且希望获得更多的自由支配所带来的乐趣。
+所以该课程不仅要学习编程基础的知识，并且希望获得感受©©自由支配所带来的乐趣。
 
----
-
+* * *
 
 ## Markdown
 
@@ -24,16 +23,15 @@
 推荐几款 Markdown 编辑器，以便预览, 因为在学习初期我们需要不断地通过预览刺激分泌催产素，从而获得成就感：
 
 Windows 平台：
-- [MarkdownPad](http://markdownpad.com/)
-- [MarPad](http://code52.org/DownmarkerWPF/)
+
+-   [MarkdownPad](http://markdownpad.com/)
+-   [MarPad](http://code52.org/DownmarkerWPF/)
 
 Mac 平台
-- [Mou](http://25.io/mou/)
 
+-   [Mou](http://25.io/mou/)
 
 （唠叨： 编程就像是在学习一门语言，这没有办法！一旦掌握了基本语法，并且经常反复用它，读它，就像你掌握了一门外语一样，开始会有点生涩，但很洋气，不是吗？）
-
-
 
 ## Github
 
@@ -46,8 +44,6 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 
 （唠叨：别怕 Low , 这里的海量没人会关注到你，同时在上面可以是匿名的，这种匿名可以带来更多的创造性，社交媒体的实名往往带来的是不必要的虚荣和负担，一旦他日你被 Fork 了，说明你在这个世界上找到了对你有兴趣的人：）
 
-
-
 ## 第一周的任务
 
 无论是 Markdown 还是 Github, 目前都不需要完全弄懂它，因为你的需求还没有产生。
@@ -55,7 +51,6 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 为了刺激大家的需求感，只能通过布置作业来完成以下任务：
 
 通过阅读[该书](https://a.temporaryrecord.com/Permanent_Record_-_CN_edition_with_underlined_redactions.pdf)--->写一篇感想 ---> 并注册一个 Github 账号 --->把感想放上去，和这个世界打一声招呼: Hello World!
-
 
 （唠叨： 目前还没有给大家讲解任何关于两者的实际操作，希望自己能够先去探索，实践，就像在《旷野之息》）
 
@@ -66,10 +61,12 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 ## 推荐书目
 
 小说：
-- [《禅与摩托车维修艺术》](https://book.douban.com/subject/6811366//)
-- [《瓦尓登湖》](https://book.douban.com/subject/1865089/)
+
+-   [《禅与摩托车维修艺术》](https://book.douban.com/subject/6811366//)
+-   [《瓦尓登湖》](https://book.douban.com/subject/1865089/)
 
 文化：
-- [《信息简史》](https://book.douban.com/subject/25752043/)
-- [《数字乌托邦：从反主流文化到赛博文化》](https://book.douban.com/subject/21632268/)
-- [《编码 : 隐匿在计算机软硬件背后的语言》](https://book.douban.com/subject/4822685/)
+
+-   [《信息简史》](https://book.douban.com/subject/25752043/)
+-   [《数字乌托邦：从反主流文化到赛博文化》](https://book.douban.com/subject/21632268/)
+-   [《编码 : 隐匿在计算机软硬件背后的语言》](https://book.douban.com/subject/4822685/)
