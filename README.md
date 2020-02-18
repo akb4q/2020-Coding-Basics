@@ -20,7 +20,7 @@
 
 > Markdown 语法的目标是：成为一种适用于网络的书写语言。
 
-举例 Github 对 Markdown 支持非常友好，在所有项目里都能找到 README.md ，后缀为 ".md "  的就是 Mardown 文件。 可能目前完全不知道我在说什么，因为习惯性思维，这些粗体，链接，引用等都是理所当然的存在，但是电脑通过 Markdown 明白了一切所给出的指令，并很好的呈现了出来。
+举例 Github 对 Markdown 支持非常友好，在所有项目里都能找到 [README](https://zh.wikipedia.org/wiki/Readme).md ，后缀为 ".md "  的就是 Mardown 文件。 可能目前完全不知道我在说什么，因为习惯性思维，这些粗体，链接，引用等都是理所当然的存在，但是电脑通过 Markdown 明白了一切所给出的指令，并很好的呈现了出来。
 
 推荐几款 Markdown 编辑器，以便预览, 因为在学习初期我们需要不断地通过预览刺激分泌催产素，从而获得成就感：
 
@@ -31,7 +31,7 @@ Windows 平台：
 
 Mac 平台
 
-- [MacDown](https://macdown.uranusjr.com/)
+-   [MacDown](https://macdown.uranusjr.com/)
 
 （唠叨： 编程就像是在学习一门语言，这没有办法！一旦掌握了基本语法，并且经常反复用它，读它，就像你掌握了一门外语一样，开始会有点生涩，但很洋气，不是吗？）
 
