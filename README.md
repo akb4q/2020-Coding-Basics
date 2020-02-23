@@ -63,14 +63,14 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 
 其次通过这门语言，可以基本了解编程这回事，能够让我们基本掌握一些和电脑语言的基础知识，这会让我们在技术文化主导的年代获得更多的主体自由，这其实也是为什么今天人人都需要学编程的理由。
 
-这就是该课程为什么选者 Processing 的理由。在Processing 官网的首页上是这么介绍的：
+在Processing 官网的首页上是这么介绍的：
 
 >Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.
 
 >Processing 是一个容易上手的软件草稿本，同时在视觉艺术语境中是一门学习如何编程的语言。
 
 
-再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, java 是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 IDE, 且对于非常友好。那就先[下载](https://processing.org/download/)它吧。 
+再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, java 是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 IDE, 且对于非常友好。那就先[下载](https://processing.org/download/)它吧。
 
 
 
