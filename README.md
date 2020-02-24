@@ -70,7 +70,7 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 >Processing 是一个容易上手的软件草稿本，同时在视觉艺术语境中是一门学习如何编程的语言。
 
 
-再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, java 是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 IDE, 且非常友好。
+再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, 它是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 IDE, 且非常友好。
 
 那就先[下载](https://processing.org/download/)它吧。
 
