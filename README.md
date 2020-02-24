@@ -55,7 +55,7 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 
 [Processing](https://processing.org/) 让我们进入正题，是我们的主要学习内容。
 
-当下是编程语言文艺复兴的年代，有太多的语言可以选择，如C++, python, javascipt 等等。在真实的欧洲文艺复兴的年代，有大量纷争和混乱的存在，我们称之为“百家争鸣”。
+当下是编程语言文艺复兴的年代，有太多的语言可以选择，如C++, python, javascipt 等等。在真实的欧洲文艺复兴年代，有大量纷争和混乱的存在，我们称之为“百家争鸣”。
 
 到底那一种语言最适合初学者，同时在艺术领域又有其可施展的空间，这是我个人一直在寻找的。
 
@@ -70,7 +70,9 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 >Processing 是一个容易上手的软件草稿本，同时在视觉艺术语境中是一门学习如何编程的语言。
 
 
-再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, java 是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 IDE, 且对于非常友好。那就先[下载](https://processing.org/download/)它吧。
+再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, java 是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 IDE, 且非常友好。
+
+那就先[下载](https://processing.org/download/)它吧。
 
 
 
