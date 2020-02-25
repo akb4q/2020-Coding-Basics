@@ -6,6 +6,13 @@
 
 如何自由支配？完全取决与个人的兴趣，无论线上还是线下，应该都是一样的。任何高效率的学习来自于专注，专注来自兴趣。
 
+## 目录
+- [对象](https://github.com/akb4q/2020-Programming-Basics-#%E5%AF%B9%E8%B1%A1)
+- [语言和工具](https://github.com/akb4q/2020-Programming-Basics-#%E8%AF%AD%E8%A8%80%E5%92%8C%E5%B7%A5%E5%85%B7)
+- [任务](https://github.com/akb4q/2020-Programming-Basics-#%E4%BB%BB%E5%8A%A1)
+- [关于一些](https://github.com/akb4q/2020-Programming-Basics-#%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B)
+- [推荐书目](https://github.com/akb4q/2020-Programming-Basics-#%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%9B%AE)
+
 ## 对象
 零基础，艺术生
 
