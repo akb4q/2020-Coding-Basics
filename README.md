@@ -82,6 +82,11 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 那就先[下载](https://processing.org/download/)它吧。
 
 
+相关：
+
+Precessing 历史| [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb-46a8-871c-74ae43b45d99) [A Modern Prometheus](https://medium.com/processing-foundation/a-modern-prometheus-59aed94abe85)
+
+
 
 
 
