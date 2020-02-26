@@ -6,7 +6,7 @@
 
 ## 第二周
 
-### pull request 
+### pull request
 
 这个任务需要你们对于这个项目有所贡献。
 
@@ -17,3 +17,5 @@
 点开 missions 文件夹 -> Create new file -> 创建文件名（记得后缀）-> 把你文本里的内容黏贴到里面，记得是 Markdown -> Propose New File , 记得标注你的名字 -> Create pull request
 
 成功完成以上几步，我就会看到递交请求了。
+
+参见[实际抄作](https://github.com/akb4q/2020-Programming-Basics-/blob/master/missions/Github%20%E6%96%B0%E4%BB%BB%E5%8A%A1%20pull%20request.pdf)
