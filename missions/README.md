@@ -18,4 +18,4 @@
 
 成功完成以上几步，我就会看到递交请求了。
 
-参见[实际抄作](https://github.com/akb4q/2020-Programming-Basics-/blob/master/missions/Github%20%E6%96%B0%E4%BB%BB%E5%8A%A1%20pull%20request.pdf)
+参见[实际操作](https://github.com/akb4q/2020-Programming-Basics-/blob/master/missions/Github%20%E6%96%B0%E4%BB%BB%E5%8A%A1%20pull%20request.pdf)
