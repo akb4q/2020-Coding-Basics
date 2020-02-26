@@ -9,7 +9,6 @@
 ## 目录
 - [对象](https://github.com/akb4q/2020-Programming-Basics-#%E5%AF%B9%E8%B1%A1)
 - [语言和工具](https://github.com/akb4q/2020-Programming-Basics-#%E8%AF%AD%E8%A8%80%E5%92%8C%E5%B7%A5%E5%85%B7)
-- [任务](https://github.com/akb4q/2020-Programming-Basics-#%E4%BB%BB%E5%8A%A1)
 - [关于一些](https://github.com/akb4q/2020-Programming-Basics-#%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B)
 - [推荐书目](https://github.com/akb4q/2020-Programming-Basics-#%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%9B%AE)
 
@@ -86,18 +85,6 @@ Github 是我希望大家掌握的第一个工具。它是全球程序员使用�
 
 Processing 历史| [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb-46a8-871c-74ae43b45d99) [A Modern Prometheus](https://medium.com/processing-foundation/a-modern-prometheus-59aed94abe85)
 
-
-
-
-
-## 任务
-### 第一周的任务
-
-无论是 Markdown 还是 Github, 目前都不需要完全弄懂它，因为你的需求还没有产生。
-
-为了刺激大家的需求感，只能通过布置作业来完成以下任务：
-
-通过阅读[该书](https://a.temporaryrecord.com/Permanent_Record_-_CN_edition_with_underlined_redactions.pdf)--->写一篇感想 ---> 并注册一个 Github 账号 --->把感想放上去，和这个世界打一声招呼: Hello World!
 
 
 ## 关于一些
