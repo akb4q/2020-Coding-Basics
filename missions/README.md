@@ -6,7 +6,7 @@
 
 ## 第二周
 
-### Github 新任务:  pull request 
+### pull request 
 
 这个任务需要你们对于这个项目有所贡献。
 
