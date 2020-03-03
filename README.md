@@ -84,7 +84,7 @@ Mac 平台
 
 相关：
 
-Processing 历史| [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb-46a8-871c-74ae43b45d99) [A Modern Prometheus](https://medium.com/processing-foundation/a-modern-prometheus-59aed94abe85)
+Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb-46a8-871c-74ae43b45d99) [A Modern Prometheus](https://medium.com/processing-foundation/a-modern-prometheus-59aed94abe85)
 
 在线视频学习 | Daniel Shiffman [Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction](https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=2)
 
