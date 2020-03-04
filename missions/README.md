@@ -3,11 +3,13 @@
 
 ## 第一周
 
-通过阅读[该书](https://a.temporaryrecord.com/Permanent_Record_-_CN_edition_with_underlined_redactions.pdf)--->写一篇感想 ---> 并注册一个 Github 账号 --->把感想放上去，和这个世界打一声招呼: Hello World!
+### Permanent Record
+
+阅读 《Permanent Record》--->写一篇感想 ---> 并注册一个 Github 账号 --->把感想放上去，和这个世界打一声招呼: Hello World!
 
 ## 第二周
 
-### pull request
+### Pull Request
 
 这个任务需要你们对于这个项目有所贡献。
 

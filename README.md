@@ -95,6 +95,11 @@ Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb
 
 只要完成每次所布置的基本任务，就完成考核。除了任务的完成度和质量，加分点都隐藏在了文本之中，但也不用刻意揣测，学习为了自己。
 
+任务集合（[更新中](https://github.com/akb4q/2020-Programming-Basics-/tree/master/missions)）
+1. [Permanent Record]
+2. [Pull request]
+3. [逆向工程]
+
 
 ### 关于习惯
 
