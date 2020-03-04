@@ -96,9 +96,9 @@ Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb
 只要完成每次所布置的基本任务，就完成考核。除了任务的完成度和质量，加分点都隐藏在了文本之中，但也不用刻意揣测，学习为了自己。
 
 任务集合（[更新中](https://github.com/akb4q/2020-Programming-Basics-/tree/master/missions)）
-1. [Permanent Record]
-2. [Pull request]
-3. [逆向工程]
+1. Permanent Record
+2. Pull request
+3. 逆向工程
 
 
 ### 关于习惯
@@ -115,7 +115,7 @@ Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb
 
 英语作为第二语言，其实和考级、学业都没有联系，但有直接关系。
 
-今天互联网已成为基础设施，但其第一语言是仍然是英语，这不是文化殖民，是技术发展所致。
+今天互联网已成为基础设施，但其第一语言仍然是英语，这不是文化殖民，是技术发展所致。
 
 以编程语言为例，字母语言在计算机发展初期，有限的字母组合，刚好成为了信息数字化的先天条件。
 
