@@ -104,9 +104,9 @@ Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb
 
 看教程往往比较系统性，时间充裕的话可以走一边，了解大致。往往在学习过程中，能刺激疑问的产生。查手册是在实践中的方法，是解决当下具体问题的路径。 比如某个函数的机制，参数所对映的位置等等。
 
-一个成熟的程序员也需要靠这两种方法度日，最有经验的程序员也都是在查手册中学习的。没人把手册储存在脑中，不科学，也没必。
+一个成熟的程序员也需要靠这两种方法度日，最有经验的程序员也都是在查手册中学习的。没人把手册储存在脑中，不科学，也没必要。
 
-以 Processing 为例子，它有非常完善的 [tutorial](https://processing.org/tutorials/) 和 [reference](https://processing.org/reference/) 。 这是它对初学者的友善，尤其是非编程专业者的友善。 甚至还有 [Example] 。 当然有兴趣的话，你也可以看以下其他语言的，比如 [openframeworks](https://openframeworks.cc/)、[cinder](https://libcinder.org/)。 有比较总是好的。
+以 Processing 为例子，它有非常完善的 [tutorial](https://processing.org/tutorials/) 和 [reference](https://processing.org/reference/) 。 这是它对初学者的友善，尤其是非编程专业者的友善。 甚至还有 [Example](https://processing.org/examples/) 。 当然有兴趣的话，你也可以看以下其他语言的，比如 [openframeworks](https://openframeworks.cc/)、[cinder](https://libcinder.org/)。 有比较总是好的。
 
 Tip. 在 PDE 中，选择函数，然后 ```Cmd + f```，最迅速的在本地手册中查找。 可能会有人抱怨手册没有中文汉化，但技术文档最好看英文，中文往往更难懂。把学编程，同时看作在学英文，这个时候有点“功利心” 不坏。
 
