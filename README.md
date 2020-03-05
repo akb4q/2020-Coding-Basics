@@ -76,7 +76,7 @@ Mac 平台
 >Processing 是一个容易上手的软件草稿本，同时在视觉艺术语境中是一门学习如何编程的语言。
 
 
-再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, 它是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 [IDE](https://processing.org/download/), 且非常友好。
+再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, 它是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 [PDE](https://processing.org/download/), 且非常友好。
 
 
 第一章 [逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
