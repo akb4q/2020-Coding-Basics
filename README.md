@@ -76,7 +76,7 @@ Mac 平台
 >Processing 是一个容易上手的软件草稿本，同时在视觉艺术语境中是一门学习如何编程的语言。
 
 
-再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, 它是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment) 对于初学者来说太过复杂，Processing 有自己的 [PDE](https://processing.org/download/), 且非常友好。
+再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, 它是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment)比如 Eclipse, 对于初学者来说太过复杂，功能多也意味着不简洁。Processing 有自己的针对初学者所开发的 [PDE](https://processing.org/download/), 且非常友好。
 
 
 第一章 [逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
@@ -133,11 +133,11 @@ Tip. 在 PDE 中，选择函数，然后 ```Cmd + f```，最迅速的在本地�
 
 为了提高在电脑前的效率，个人推荐养成以下操作习惯, 以 Mac OS 为例 （由于个人长期用的是 Mac OS)：
 
-- **快捷键**: 对于应用或操作系统，快捷键是最迅速的操作。试着想象一下可以不用鼠标的操作体验。可以这么说，一个操作系统或应用的快捷键操作，体现了对于用户对于她的了解程度。
+1. **快捷键**: 对于应用或操作系统，快捷键是最迅速的操作。试着想象一下可以不用鼠标的操作体验。可以这么说，一个操作系统或应用的快捷键操作，体现了对于用户对于她的了解程度。
 
-- **搜索**：Mac OS 有很好的电脑搜索功能 Spotlight, 在桌面右上角你会看到🔍的 logo, 点击后便会跳出搜索窗口，然后键入应用程序的名字，回车之后便可开启应用。开启应用程序可能是个人用的最多的，这样桌面上的 Dock 便可以隐藏了，可以更专注于当前应用的工作。同时 Spotlight 也是一个计算器，非常方便。更方便的操作，是通过设置快捷键，来叫出她。
+2. **搜索**：Mac OS 有很好的电脑搜索功能 Spotlight, 在桌面右上角你会看到🔍的 logo, 点击后便会跳出搜索窗口，然后键入应用程序的名字，回车之后便可开启应用。开启应用程序可能是个人用的最多的，这样桌面上的 Dock 便可以隐藏了，可以更专注于当前应用的工作。同时 Spotlight 也是一个计算器，非常方便。更方便的操作，是通过设置快捷键，来叫出她。
 
-- **切换**：在多应用工作的情况下，学会用 ```Cmd + Tab```
+3. **切换**：在多应用工作的情况下，学会用 ```Cmd + Tab```
 
 ### 关于英语
 
@@ -156,8 +156,12 @@ Tip. 在 PDE 中，选择函数，然后 ```Cmd + f```，最迅速的在本地�
 
 文化：
 
-
 -   [《信息简史》](https://book.douban.com/subject/25752043/)
 -   [《数字乌托邦：从反主流文化到赛博文化》](https://book.douban.com/subject/21632268/)
 -   [《黑客与画家》](https://book.douban.com/subject/6021440/)
 -   [《编码 : 隐匿在计算机软硬件背后的语言》](https://book.douban.com/subject/4822685/)
+
+理论：
+
+-  [《机械复制时代的艺术》](https://book.douban.com/subject/1960256/)
+- [《理解媒介：论人的延伸》](https://book.douban.com/subject/6391212/)
