@@ -106,7 +106,7 @@ Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb
 
 向人寻求帮助，会让问题变得印象深刻。有价值的问题比解决方案更重要。一般的问题可能其他人都有问过。但知乎、Quora、Reddit不是技术群体所在的地方，可以通过 [CSDN](https://www.csdn.net/), [stack Overflow](https://stackoverflow.com/)  等或者相应的论坛。
 
-一个成熟的程序员也需要靠这几种方法方法度日，最有经验的程序员也都是在查手册中学习的。没人把手册储存在脑中，不科学，也没必要。
+一个成熟的程序员也需要靠这几种方法度日，最有经验的程序员也都是在查手册中学习的。没人把手册储存在脑中，不科学，也没必要。
 
 以 Processing 为例子，它有非常完善的 [tutorial](https://processing.org/tutorials/) 和 [reference](https://processing.org/reference/) 。 这是它对初学者的友善，尤其是非编程专业者的友善。 甚至还有 [Example](https://processing.org/examples/) 。 当然有兴趣的话，你也可以看以下其他语言的，比如 [openframeworks](https://openframeworks.cc/)、[cinder](https://libcinder.org/)。 有比较总是好的。
 
