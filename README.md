@@ -13,6 +13,7 @@
   * Github
   * Processing
 
+* [学习方法](https://github.com/akb4q/2020-Programming-Basics-#%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95)
 * [关于一些](https://github.com/akb4q/2020-Programming-Basics-#%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B)
 * [推荐书目](https://github.com/akb4q/2020-Programming-Basics-#%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%9B%AE)
 
