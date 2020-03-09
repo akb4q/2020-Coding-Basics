@@ -21,167 +21,163 @@
   }
 </style>
 </head>
-<body><div id="readme" class="container"><article class="markdown-body entry-content"><h1 id="-bouncing-ball">&#x7B2C;&#x4E00;&#x7AE0; &#x9006;&#x5411;&#x5DE5;&#x7A0B;&#x4E4B; Bouncing Ball</h1>
-<pre><code class="language-java">     // The Nature of Code
-     // Daniel Shiffman
-     // http://natureofcode.com
-     // Example 1-1: Bouncing Ball, no vectors
-     float x = 100;
-     float y = 100;
-     float xspeed = 2.5;
-     float yspeed = 2;
-
-     void setup() {
-       size(800, 200);
-       smooth();
-     }
-
-
-     void draw() {
-         background(255);
-     // Add the current speed to the location.
-         x = x + xspeed;
-         y = y + yspeed;
-         if ((x &gt; width) || (x &lt; 0)) {
-             xspeed = xspeed * -1;
-         }
-         if ((y &gt; height) || (y &lt; 0)) {
-             yspeed = yspeed * -1;
-         }
-     // Display circle at x location
-         stroke(0);
-         strokeWeight(2);
-         fill(127);
-         ellipse(x, y, 48, 48);
-     }
-</code></pre>
-<p>&#x8BA9;&#x6211;&#x4EEC;&#x4ECE;&#x4E00;&#x4E2A;&#x76F4;&#x89C2;&#x7684;&#x7A0B;&#x5E8F;&#x6240;&#x751F;&#x6210;&#x7684;&#x52A8;&#x753B;&#x5165;&#x624B;&#x3002;&#x8BF7;&#x5C06;&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#x5728; PDE &#x91CC;&#x8FD0;&#x884C;&#x3002;&#x6562;&#x8FD9;&#x4E48;&#x8BF4;&#xFF0C;&#x5982;&#x679C;&#x770B;&#x61C2;&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#xFF0C;&#x7B97; Processing &#x5165;&#x95E8;&#x4E00;&#x534A;&#x3002;</p>
-<p>&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x4E00;&#x4E00;&#x89E3;&#x6784;&#x5B83;&#x3002;</p>
-<h2 id="-">&#x7ED3;&#x6784;</h2>
-<p>&#x8FD9;&#x91CC;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x4E24;&#x4E2A;&#x4E3B;&#x8981;&#x7684;&#x7531;&#x4E24;&#x4E2A;&#x5927;&#x62EC;&#x53F7;&#x62EC;&#x8D77;&#x6765;&#x7684;&#x7A0B;&#x5E8F;&#x5757;&#x3002;&#x4E5F;&#x662F; Processing &#x6700;&#x4E3B;&#x8981;&#x7684;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x3002;</p>
-<pre><code class="language-java">void setup(){
-
-}</code></pre>
-<pre><code class="language-java">void draw(){
-
-}</code></pre>
-<p>&#x6CE8;&#x610F;&#x4ED6;&#x4EEC;&#x5206;&#x522B;&#x4EE5; <strong>void</strong> &#x7684;&#x5F00;&#x5934;&#x3002; void &#x662F;&#x4EC0;&#x4E48;&#x610F;&#x601D;&#xFF1F;&#x76F4;&#x8BD1;&#x4E3A;&#x201C;&#x7A7A;&#x201D;&#x3002;&#x9664;&#x4E86;&#x8FD0;&#x884C;&#xFF0C;&#x4F5C;&#x4E3A;&#x51FD;&#x6570;&#x5B83;&#x4E0D;&#x56DE;&#x62A5;&#x51FA;&#x4EFB;&#x4F55;&#x503C;&#xFF0C;&#x5728;&#x4E4B;&#x540E;&#x51FD;&#x6570;&#x5355;&#x5143;&#x4F1A;&#x7EC6;&#x8BB2;&#x3002;</p>
-<p>&#x5BF9;&#x4E8E; Processing &#x6765;&#x8BF4; setup()&#x548C; draw() &#x662F;&#x5FC5;&#x8981;&#x51FD;&#x6570;&#xFF0C;&#x662F;&#x7ED3;&#x6784;&#x6027;&#x7684;&#xFF0C;&#x4E0D;&#x80FD;&#x6CA1;&#x6709;&#x3002;&#x5F53;&#x7136;&#x4E5F;&#x6709;&#x4F8B;&#x5916;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5199;&#x5C1D;&#x8BD5;&#x952E;&#x5165;&#x53EA;&#x6709;&#x4E00;&#x884C;&#x6307;&#x4EE4;&#x7684;&#x4EE3;&#x7801;</p>
-<pre><code>print(&#x201C;hello world!&#x201D;);</code></pre><p>&#x53C8;&#x6216;&#x8005;&#x76F4;&#x63A5;&#x8FD0;&#x884C;&#x7A7A;&#x767D;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x770B;&#x770B;&#x4F1A;&#x53D1;&#x751F;&#x4EC0;&#x4E48;&#x3002;</p>
-<h2 id="-">&#x521D;&#x59CB;</h2>
-<p>&#x5728; setup(){} &#x4E2D;,&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x4EE5;<strong>&#x5206;&#x53F7;</strong>&#x4E3A;&#x7ED3;&#x5C3E;&#x7684;&#x4E24;&#x884C;<strong>&#x6307;&#x4EE4;</strong>&#xFF0C;&#x82F1;&#x6587;&#x53EB; Statement&#x3002; &#x901A;&#x5E38;&#x521D;&#x5B66;&#x8005;&#x5728;&#x5199;&#x6307;&#x4EE4;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5F88;&#x5BB9;&#x6613;&#x9057;&#x6F0F;&#x3002;</p>
-<pre><code class="language-java">size();
-smooth();</code></pre>
-<p>&#x6211;&#x4EEC;&#x628A;&#x7B2C;&#x4E00;&#x884C;&#x6307;&#x4EE4;&#x7406;&#x89E3;&#x6210;&#xFF1A;&#x6211;&#x4EEC;&#x8981;&#x6253;&#x4E00;&#x4E2A;&#x753B;&#x6846;&#xFF0C;&#x591A;&#x5927;&#x5462;&#xFF1F;800*200&#xFF0C;&#x5355;&#x4F4D;&#x662F;<a href="https://zh.wikipedia.org/wiki/%E5%83%8F%E7%B4%A0">&#x50CF;&#x7D20; Pixel</a>&#x3002;</p>
-<p>&#x63A5;&#x4E0B;&#x6765;&#x662F;&#x753B;&#x5E03;&#xFF0C;&#x8981;&#x7CD9;&#x4E00;&#x70B9;&#x8FD8;&#x662F;&#x5E73;&#x6ED1;&#x4E00;&#x70B9;&#x3002;smooth &#x8868;&#x793A;&#x5149;&#x6ED1;&#x7684;&#x610F;&#x601D;, smooth() &#x8868;&#x793A;&#x56FE;&#x5F62;&#x7684;&#x8D28;&#x5730;&#x6E32;&#x67D3;&#x662F;&#x5149;&#x6ED1;&#x7684;,&#x4E0E;&#x5176;&#x5BF9;&#x5E94;&#x7684; noSmooth(), &#x4E0D;&#x8981;&#x5149;&#x6ED1;&#x3002;&#x8BE6;&#x89C1;<a href="https://zh.wikipedia.org/wiki/%E5%8F%8D%E9%8B%B8%E9%BD%92">&#x53CD;&#x952F;&#x9F7F; anti-alias</a>&#x3002;</p>
-<p>&#x8FD9;&#x5C31;&#x662F;&#x6574;&#x4E2A;&#x7A0B;&#x5E8F;&#x7684;&#x521D;&#x59CB;&#xFF0C;&#x5728;&#x6240;&#x6709;&#x5176;&#x4F59;&#x4EE3;&#x7801;&#x524D;&#x8FD0;&#x884C;&#xFF0C;&#x4E14;&#x53EA;&#x8FD0;&#x884C;&#x4E00;&#x6B21;&#x3002;</p>
-<h2 id="-">&#x53D8;&#x91CF;</h2>
-<p>&#x521D;&#x59CB;&#x5316;&#x7684;&#x540C;&#x65F6;&#x4E5F;&#x5305;&#x62EC; setup() &#x4E4B;&#x4E0A;&#x7684;&#x90A3;&#x51E0;&#x884C;&#x4EE3;&#x7801;,</p>
+<body><div id="readme" class="container"><article class="markdown-body entry-content"><h1 id="-">&#x7B2C;&#x4E8C;&#x7AE0; &#x51FD;&#x6570;</h1>
+<p>&#x51FD;&#x6570;&#x82F1;&#x6587;&#x4E3A; Function &#xFF0C;&#x610F;&#x4E3A;&#x529F;&#x80FD;&#x548C;&#x7528;&#x9014;&#x3002;&#x5728;&#x7A0B;&#x5E8F;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A;&#x51FD;&#x6570;&#x7406;&#x89E3;&#x6210;&#x4E3A;&#x4E86;&#x505A;&#x67D0;&#x4E8B;&#x7684;&#x4E00;&#x4E2A;&#x540D;&#x79F0;&#x53CA;&#x5176;&#x53C2;&#x6570;&#x7684;&#x7EC4;&#x5408;&#x3002;</p>
+<p>![Function](assets/ &#x7B2C;&#x4E8C;&#x7AE0; &#x51FD;&#x6570;&#x4E4B; dist3103d823.png)</p>
+<p>&#x8FD9;&#x91CC;&#x8F93;&#x5165;&#x7684;&#x5C31;&#x662F;&#x53C2;&#x6570;&#xFF0C;&#x8F93;&#x51FA;&#x7684;&#x5C31;&#x662F;&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x8FD0;&#x7B97;&#x7ED3;&#x679C;&#x3002; &#x5728; Processing &#x7684; reference &#x91CC;&#x5927;&#x591A;&#x6570;&#x90FD;&#x662F;&#x5BF9;&#x4E8E;&#x51FD;&#x6570;&#x7684;&#x89E3;&#x91CA;&#x3002;</p>
+<p>&#x7531;&#x51FD;&#x6570;&#x52A0;&#x4E0A;&#x5206;&#x53F7;&#xFF0C;&#x6784;&#x6210; Processing &#x91CC;&#x7684;&#x7A0B;&#x5E8F;&#x6307;&#x4EE4;(statement)&#x3002;</p>
+<p>&#x540C;&#x65F6;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x628A;&#x51FD;&#x6570;&#x89C6;&#x4E3A;&#x4E00;&#x79CD;<strong>&#x62BD;&#x8C61;</strong>(abstraction)&#x7684;&#x65B9;&#x6CD5;, &#x5B83;&#x6307;<strong>&#x9690;&#x85CF;&#x7EC6;&#x8282;&#x5E76;&#x4E13;&#x6CE8;&#x4E8E;&#x7ED3;&#x679C;</strong>&#xFF0C;&#x8FD9;&#x662F;&#x6709;&#x522B;&#x4E8E;&#x827A;&#x672F;&#x8BED;&#x5883;&#x4E0B;&#x62BD;&#x8C61;&#x7684;&#x53E6;&#x4E00;&#x5C42;&#x610F;&#x601D;&#x3002;</p>
+<p>&#x4E3A;&#x6B64;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x62BD;&#x8C61;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x3002;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x4E86;<strong>&#x4EE3;&#x7801;&#x6574;&#x6D01;</strong>&#x548C;<strong>&#x91CD;&#x590D;&#x8C03;&#x7528;</strong>&#xFF0C;</p>
+<h2 id="-">&#x5C01;&#x88C5;</h2>
+<p>&#x901A;&#x8FC7;&#x81EA;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5C06;&#x4E0D;&#x540C;&#x76EE;&#x7684;&#x7684;&#x6307;&#x4EE4;&#x653E;&#x8FDB;&#x53BB;&#xFF0C;&#x6211;&#x4EEC;&#x79F0;&#x4E4B;&#x4E3A;&#x201C;&#x5C01;&#x88C5;&#x201D;&#x3002;&#x4F3C;&#x4E4E;&#x542C;&#x8D77;&#x6765;&#x6709;&#x70B9;&#x50CF;&#x201C;&#x6536;&#x7EB3;&#x201D;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x6A21;&#x5757;&#x5316;&#x3002;&#x5F53;&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x6307;&#x4EE4;&#x65F6;&#x4F1A;&#x5148;&#x8DF3;&#x5230;&#x51FD;&#x6570;&#x5B9A;&#x4E49;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x8DF3;&#x56DE;&#x6765;&#x3002;</p>
+<p>&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF0C;&#x6211;&#x4EEC;&#x81EA;&#x5B9A;&#x4E86;&#x4E00;&#x4E2A;&#x540D;&#x4E3A; bouncingBall() &#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x3002;</p>
 <pre><code class="language-java">float x = 100;
 float y = 100;
 float xspeed = 2.5;
-float yspeed = 2;</code></pre>
-<p>&#x4ED6;&#x4EEC;&#x5C31;&#x662F;&#x53D8;&#x91CF;&#x7684;&#x58F0;&#x660E;&#x3002;&#xFF08;&#x4E14;&#x662F;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#xFF0C;&#x540E;&#x9762;&#x6211;&#x4EEC;&#x8FD8;&#x4F1A;&#x63A5;&#x89E6;&#x5230;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x3002;&#xFF09;</p>
-<pre><code class="language-java">float x = 100;
-float y = 100;</code></pre>
-<p>&#x628A;&#x6570;&#x503C; 100 &#x5206;&#x522B;&#x8D4B;&#x503C;&#x7ED9; x&#x548C; y &#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x7403;&#x5728;&#x7A0B;&#x5E8F;&#x5F00;&#x59CB;&#x8FD0;&#x884C;&#x7684;&#x521D;&#x59CB;&#x4F4D;&#x7F6E;&#x3002;</p>
-<p>float &#x610F;&#x601D;&#x6D6E;&#x70B9;&#x6570;&#x7684;&#x610F;&#x601D;,&#x901A;&#x5E38;&#x610F;&#x4E49;&#x4E0A;&#x5C31;&#x5C0F;&#x6570;,&#x4E0E;&#x5176;&#x5BF9;&#x5E94;&#x7684;&#x662F; int &#x6574;&#x6570;&#x3002;</p>
-<p>&#x4E3A;&#x4EC0;&#x4E48;&#x7A0B;&#x5E8F;&#x91CC;&#x7684;&#x5C0F;&#x6570;&#x53EB;&#x505A;&#x6D6E;&#x70B9;&#x6570;,&#x8FD9;&#x91CC;&#x6D89;&#x53CA;&#x5230;&#x8BA1;&#x7B97;&#x673A;&#x79D1;&#x5B66;&#x5185;&#x5BB9;,&#x5173;&#x4E8E;&#x5185;&#x5B58;&#x7684;&#x7B97;&#x6CD5;,&#x7535;&#x8111;&#x662F;&#x5982;&#x4F55;&#x8BB0;&#x5FC6;&#x6570;&#x503C;&#x7684;,&#x81F3;&#x4E8E;&#x539F;&#x7406;&#x521D;&#x5B66;&#x540C;&#x5B66;&#x53EF;&#x4EE5;&#x6682;&#x65F6;&#x5FFD;&#x7565;&#x3002;</p>
-<p>&#x53EA;&#x8981;&#x8BB0;&#x4F4F;&#x4EE5;&#x4E0B;&#x8FD9;&#x4E2A;&#x8BED;&#x6CD5;&#xFF0C;&#x8BA9;&#x7535;&#x8111;&#x8BB0;&#x4F4F;&#x6211;&#x4EEC;&#x8D4B;&#x4E88;&#x53D8;&#x91CF;&#x7684;&#x503C;&#x662F;&#x4EC0;&#x4E48;&#x3002;</p>
-<pre><code>    DataType variable = value;
+float yspeed = 2;
 
-    &#x6570;&#x636E;&#x7C7B;&#x578B; &#x53D8;&#x91CF;&#x540D;&#x79F0; = &#x503C;;</code></pre><p>&#x4E09;&#x4E2A;&#x9879;&#x7EC4;&#x6210;&#x7684;&#x56FA;&#x5B9A;&#x8BED;&#x6CD5;&#x6784;&#x6210;&#x4E00;&#x53E5;&#x53D8;&#x91CF;&#x58F0;&#x660E;&#x7684;&#x6307;&#x4EE4;,&#x4EE5;&#x5206;&#x53F7;&#x7ED3;&#x5C3E;&#x3002;</p>
-<p>&#x8FD9;&#x91CC;&#x518D;&#x91CD;&#x590D;&#x4E00;&#x904D;&#xFF0C;&#x51E1;&#x662F;&#x7A0B;&#x5E8F;&#x6307;&#x4EE4; statement &#x90FD;&#x6709; <code>;</code>&#x7ED3;&#x5C3E;,&#x544A;&#x8BC9;&#x7535;&#x8111;,&#x6211;&#x8981;&#x6267;&#x884C;&#x4ED6;&#x4EEC;&#x3002;</p>
-<p>&#x5982;&#x679C;&#x6CA1;&#x6709;,&#x53EF;&#x4EE5;&#x8BD5;&#x4E00;&#x8BD5;!&#x7A0B;&#x5E8F;&#x5728; PDE &#x6700;&#x4E0B;&#x65B9;, Console &#x91CC;&#x4F1A;&#x62A5;&#x9519;:</p>
-<blockquote>
-<p>syntax error, maybe a missing semicolon?</p>
-</blockquote>
-<p>&#x7535;&#x8111;&#x5C31;&#x662F;&#x8FD9;&#x6837;&#x7684;&#x5F3A;&#x52BF;,&#x4E0D;&#x901A;&#x878D;&#x6216;&#x8005;&#x79F0;&#x4E4B;&#x4E3A;&#x50BB;;&#x8FD9;&#x4E5F;&#x5C31;&#x662F;&#x7A0B;&#x5E8F;&#x8BED;&#x8A00;&#x548C;&#x81EA;&#x7136;&#x8BED;&#x8A00;,&#x6700;&#x5927;&#x533A;&#x522B;,&#x5B83;&#x8981;&#x6C42;&#x4E25;&#x683C;&#x7684;&#x8BED;&#x6CD5;&#xFF01;</p>
-<p>&#x4F5C;&#x4E3A;&#x521D;&#x5B66;&#x8005;,&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4E0D;&#x65AD;&#x8BD5;&#x9519;,&#x4FEE;&#x6539;&#x4E00;&#x4E9B;&#x5730;&#x65B9;,&#x770B;&#x770B;&#x7535;&#x8111;&#x4F1A;&#x62A5;&#x54EA;&#x4E9B;&#x9519;,&#x800C;&#x4E0D;&#x6267;&#x884C;&#x4F60;&#x5199;&#x7684;&#x7A0B;&#x5E8F;&#x3002;</p>
-<h2 id="-">&#x8FD0;&#x884C;</h2>
-<p>draw &#x753B;&#x753B;&#x7684;&#x610F;&#x601D;, &#x753B;&#x753B;&#x548C;&#x8BBE;&#x7F6E; setup &#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x52A8;&#x4F5C;, &#x753B;&#x753B;&#x662F;&#x4E00;&#x4E2A;&#x8FDE;&#x7EED;&#x7684;&#x8FC7;&#x7A0B;,&#x8BBE;&#x7F6E;&#x53EA;&#x505A;&#x4E00;&#x6B21;&#x3002;&#x4E4B;&#x6240;&#x4EE5;&#x753B;&#x9762;&#x4E00;&#x76F4;&#x5728;&#x53D8;,&#x90A3;&#x662F;&#x56E0;&#x4E3A; draw() &#x5728;&#x8D77;&#x4F5C;&#x7528;&#xFF0C;<code>draw(){}</code> &#x91CC;&#x7684;&#x6307;&#x4EE4;&#xFF0C;&#x4ECE;&#x7B2C;&#x4E00;&#x884C;&#x6307;&#x4EE4;&#x5F00;&#x59CB;&#x5230;&#x6700;&#x540E;&#x4E00;&#x884C;&#x4E00;&#x76F4;&#x5728;&#x505A;<strong>&#x56DE;&#x5708; Loop</strong> &#x8FD0;&#x884C;&#x3002;</p>
-<p>&#x8BF4;&#x5230;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x5C31;&#x8981;&#x5F15;&#x5165;&#x4E00;&#x4E2A;&#x6982;&#x5FF5; &#x201C;&#x5E27;&#x201D; (Frame) &#x3002;</p>
-<h3 id="-">&#x5E27;&#x4E0E;&#x7A0B;&#x5E8F;&#x5E27;</h3>
-<p>&#x5E27;&#x7684;&#x6982;&#x5FF5;&#x662F;&#x52A8;&#x753B;&#x7684;&#x6982;&#x5FF5;,&#x4E5F;&#x662F;&#x73B0;&#x4EE3;&#x5F71;&#x50CF;&#x6280;&#x672F;&#x7684;&#x6982;&#x5FF5;&#x3002;&#x7531;&#x4E8E;&#x5E27;&#x901F;&#x7387;&#x7684;&#x53D8;&#x5316;&#x6784;&#x6210;&#x4E86;&#x4F1A;&#x52A8;&#x7684;&#x5F71;&#x50CF;,&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A;&#x5F71;&#x50CF;&#x7406;&#x89E3;&#x6210;&#x4E00;&#x79CD;&#x5047;&#x8C61;&#x3002;&#x7531;&#x5E27;&#x7EC4;&#x6210;&#x7684;&#x52A8;&#x753B;,&#x6BCF;&#x4E00;&#x5E27;&#x5728;&#x8868;&#x73B0;&#x8FD0;&#x52A8;&#x7684;&#x5047;&#x8C61;&#x4E0A;&#x6709;&#x7EC6;&#x5FAE;&#x7684;&#x5DEE;&#x522B;&#xFF0C;&#x9010;&#x5E27;&#x52A8;&#x753B;&#x5305;&#x542B;&#x6BCF;&#x4E00;&#x5E27;&#x7684;&#x56FE;&#x50CF;&#x6216;&#x56FE;&#x50CF;&#x7684;&#x63CF;&#x8FF0;&#xFF0C;&#x52A8;&#x6001;&#x52A8;&#x753B;&#x5305;&#x542B;&#x4E00;&#x5E45;&#x56FE;&#x7247;&#x7684;&#x8D77;&#x59CB;&#x63CF;&#x8FF0;&#x4EE5;&#x53CA;&#x540E;&#x7EED;&#x6BCF;&#x4E00;&#x5E27;&#x56FE;&#x50CF;&#x7684;&#x53D8;&#x5316;&#x89C4;&#x5219;&#x3002;</p>
-<p>Processing &#x7684;&#x9ED8;&#x8BA4;&#x5E27;&#x901F;&#x7387;&#x4E3A; 60fps , &#x6253;&#x6E38;&#x620F;&#x7684;&#x540C;&#x5B66;&#x5E94;&#x8BE5;&#x77E5;&#x9053;,&#x5C24;&#x5176;&#x662F;&#x683C;&#x6597;&#x52A8;&#x4F5C;&#x6E38;&#x620F;, &#x9876;&#x5C16;&#x9AD8;&#x624B;&#x6700;&#x540E;&#x4F1A;&#x4EE5;&#x6BCF;&#x4E00;&#x62DB;&#x9700;&#x8981;&#x591A;&#x5C11;&#x5E27;&#x901F;&#x7387;&#x6765;&#x8BA1;&#x7B97;,&#x4ECE;&#x800C;&#x51FB;&#x8D25;&#x5BF9;&#x65B9;&#x3002;</p>
-<p>&#x65E2;&#x7136;&#x662F;&#x9ED8;&#x8BA4;&#x7684;,&#x540C;&#x65F6;&#x4E5F;&#x610F;&#x5473;&#x7740;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x5B83;&#x3002;</p>
-<pre><code class="language-java">     void setup() {
-         frameRate(24);
-         size(800,200);
-         smooth();
-         }
+void setup() {
+  size(800, 200);
+  smooth();
+}
+
+void draw() {
+  background(255);
+  bouncingBall();
+}
+
+void bouncingBall() {
+  // Add the current speed to the position.
+  x = x + xspeed;
+  y = y + yspeed;
+
+  if ((x &gt; width) || (x &lt; 0)) {
+    xspeed = xspeed * -1;
+  }
+  if ((y &gt; height) || (y &lt; 0)) {
+    yspeed = yspeed * -1;
+  }
+
+
+  // Display circle at x position
+  stroke(0);
+  strokeWeight(2);
+  fill(127);
+  ellipse(x, y, 48, 48);
+}
 </code></pre>
-<p>&#x628A;&#x5B83;&#x52A0;&#x5165;&#x5230;setup()&#x7684;&#x7A0B;&#x5E8F;&#x5757;&#x91CC;&#x5934;,&#x544A;&#x8BC9;&#x7535;&#x8111;,&#x6211;&#x8981;&#x548C;&#x7535;&#x5F71;&#x64AD;&#x653E;&#x4E00;&#x6837;&#x7684;&#x5E27;&#x901F;&#x7387;&#x6765;&#x8FD0;&#x884C;&#x52A8;&#x753B;&#x3002; &#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A; draw() &#x91CC;&#x5934;&#x7684;&#x4EE3;&#x7801;&#x7406;&#x89E3;&#x4E3A;&#x7A0B;&#x5E8F;&#x5E27;,&#x57FA;&#x4E8E;&#x8BBE;&#x7F6E;&#x91CC;&#x5934;&#x7684;&#x5E27;&#x901F;&#x7387;&#x8FD0;&#x884C;&#x3002;</p>
-<p>&#x548C;&#x52A8;&#x753B;&#x533A;&#x522B;&#x5728;&#x4E8E;,&#x52A8;&#x753B;&#x662F;&#x4E00;&#x7EC4;&#x56FA;&#x5B9A;&#x7684;&#x56FE;&#x7247;&#x5E8F;&#x5217;, &#x9010;&#x4E00;&#x64AD;&#x653E;&#x3002;&#x800C;&#x7A0B;&#x5E8F;&#x5E27;&#x662F;&#x52A8;&#x6001;&#x7684;,&#x56FE;&#x50CF;&#x662F;&#x5728;&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x65F6;&#x521B;&#x5EFA;&#x51FA;&#x6765;&#x7684;</p>
-<p>&#x8FD9;&#x4E5F;&#x662F;&#x7A0B;&#x5E8F;&#x7684;&#x9B45;&#x529B;&#x6240;&#x5728;&#x4E4B;&#x4E00;&#xFF0C;&#x5B9E;&#x65F6;&#x6027; realtime ,&#x63D0;&#x4F9B;&#x4E86;&#x4EA4;&#x4E92; interactive  &#x7684;&#x53EF;&#x80FD;&#x3002;</p>
-<h3 id="-">&#x8FD0;&#x7B97;</h3>
-<p>&#x56E0;&#x4E3A;&#x53D8;&#x91CF; <code>x, y</code> &#x5728; <code>draw(){}</code>&#x91CC;&#x4E0D;&#x65AD;&#x5730;&#x901A;&#x8FC7;&#x52A0;&#x6CD5;&#x8FD0;&#x7B97;&#x800C;&#x6539;&#x53D8;,</p>
-<pre><code>     // Add the current speed to the location.
-         x = x + xspeed;
-         y = y + yspeed;</code></pre><p>&#x53D8;&#x91CF; x,y &#x968F;&#x7740;&#x7A0B;&#x5E8F;&#x7684;&#x56DE;&#x5708;&#x8FD0;&#x884C;&#xFF0C;&#x4E0D;&#x65AD;&#x5730;&#x5728;&#x5F53;&#x524D;&#x5E27;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x901A;&#x8FC7;&#x52A0;&#x6CD5;&#xFF0C;&#x8BA9;&#x5BF9;&#x8C61;&#x53D1;&#x751F;&#x4F4D;&#x79FB;&#x3002;</p>
-<p>&#x6211;&#x4EEC;&#x8BD5;&#x9519;,&#x62FF;&#x6389; if &#x7684;&#x7A0B;&#x5E8F;&#x5FEB;&#x5185;&#x5BB9;</p>
-<pre><code>
-         if ((x &gt; width) || (x &lt; 0)) {
-             xspeed = xspeed * -1;
-         }
-         if ((y &gt; height) || (y &lt; 0)) {
-             yspeed = yspeed * -1;
-         }
+<p>&#x8FD9;&#x6837;&#x4F60;&#x5728;&#x770B;&#x6E90;&#x4EE3;&#x7801;&#x91CC;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C31;&#x975E;&#x5E38;&#x6E05;&#x695A;&#x4E86;&#xFF0C;&#x5728; draw() &#x91CC;&#x53EA;&#x6709;&#x4E24;&#x884C;&#x6307;&#x4EE4;&#x3002;</p>
+<pre><code class="language-java">void draw() {
+  background(255);
+  bouncingBall();
+}</code></pre>
+<p>&#x6211;&#x4EEC;&#x8FD8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x51FD;&#x6570;&#x8FD9;&#x79CD;&#x62BD;&#x8C61;&#x5206;&#x88C5;&#x7684;&#x65B9;&#x6CD5;&#x5C06;&#x5176;&#x62C6;&#x89E3;&#x6210;&#x4E09;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x3002;</p>
+<pre><code class="language-java">// Modify by akb4q
+// Learning Processing
+// Daniel Shiffman
+// http://www.learningprocessing.com
 
-</code></pre><p>&#x73B0;&#x5728;&#x53C8;&#x51FA;&#x73B0;&#x4EC0;&#x4E48;&#x60C5;&#x51B5;,&#x7A0B;&#x5E8F;&#x5E76;&#x6CA1;&#x6709;&#x62A5;&#x9519;,&#x53EA;&#x662F;&#x7403;&#x4E0D;&#x89C1;&#x4E86;,&#x5B83;&#x8DD1;&#x51FA;&#x4E86;&#x753B;&#x5E03;,&#x6211;&#x4EEC;&#x770B;&#x4E0D;&#x5230;&#x5B83;,&#x4F46;&#x5E76;&#x4E0D;&#x610F;&#x5473;&#x7740;&#x5B83;&#x4E0D;&#x5B58;&#x5728;&#x4E86;&#x3002;</p>
-<h3 id="-">&#x903B;&#x8F91;&#x5224;&#x65AD;</h3>
-<p>if &#x4F5C;&#x4E3A;&#x5982;&#x679C;, &#x662F;&#x4E00;&#x4E2A;&#x524D;&#x63D0;&#x5224;&#x65AD;&#x3002;&#x524D;&#x63D0;&#x4E3A;&#x771F;,&#x5219;&#x7ED3;&#x8BBA;&#x4E3A;&#x771F;, &#x5982;&#x679C;&#x6EE1;&#x8DB3;&#x62EC;&#x53F7;&#x91CC;&#x7684;&#x5224;&#x65AD;&#xFF0C;&#x5219;&#x8FD0;&#x884C;&#x540E;&#x9762;&#x5927;&#x62EC;&#x53F7;&#x91CC;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x8981;&#x662F;&#x524D;&#x63D0;&#x4E3A;&#x5047;&#xFF0C;&#x5219;&#x4E0D;&#x8FD0;&#x884C;&#x5927;&#x62EC;&#x53F7;&#x91CC;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x76F4;&#x63A5;&#x8DF3;&#x8FC7;&#x3002;</p>
-<p>&#x8FD9;&#x5C31;&#x662F;&#x7A0B;&#x5E8F;&#x7684;<strong>&#x903B;&#x8F91;</strong>&#x3002;</p>
-<pre><code>if ((x &gt; width) || (x &lt; 0)){
-  xspeed = xspeed * -1;
-  }</code></pre><p>&#x524D;&#x63D0;&#x5224;&#x65AD;&#x7684;&#x62EC;&#x53F7;&#x4E2D;&#x6709;&#x4E24;&#x4E2A;&#x5224;&#x65AD; <code>x &gt; width</code> &#x610F;&#x5473;&#x7740;&#x5F53;x&#x5927;&#x4E8E;&#x753B;&#x9762;&#x7684;&#x5BBD;&#x5EA6; width ,<code>x &lt; 0</code> &#x610F;&#x5473;&#x7740;&#x8D1F;&#x6570;; &#x540C;&#x7406;<code>y &gt; height</code> &#x5927;&#x4E8E;&#x753B;&#x9762;&#x7684;&#x9AD8;&#x5EA6;&#x3002;</p>
-<p>processing &#x7684;&#x753B;&#x9762;&#x4F5C;&#x6807;&#x539F;&#x70B9;&#x4F4D;&#x4E8E;&#x753B;&#x9762;&#x7684;&#x5DE6;&#x4E0A;&#x89D2;,&#x6A2A;&#x8F74;x, &#x7AD6;&#x8F74;y, &#x662F;&#x4E00;&#x4E2A;&#x7B1B;&#x5361;&#x5C14;&#x5750;&#x6807;&#x7CFB;&#x7EDF; Cartesian coordinate system &#x7684;&#x7B2C;&#x4E00;&#x8C61;&#x9650;;
-&#x5728;&#x8FD9;&#x4E2A;&#x5750;&#x6807;&#x7CFB;&#x7EDF;&#x4E2D;&#x6BCF;&#x4E00;&#x4E2A;&#x50CF;&#x7D20;&#x70B9;&#x4E3A;1&#x4E2A;&#x5355;&#x4F4D;&#x3002;</p>
-<p>&#x7B26;&#x53F7; || &#x4EE3;&#x8868;&#x7740;<strong>&#x6216;</strong>&#x7684;&#x6982;&#x5FF5;,&#x53EA;&#x8981;&#x4E24;&#x4E2A;&#x6761;&#x4EF6;&#x91CC;&#x6709;&#x4E00;&#x4E2A;&#x4E3A;&#x771F;,&#x90A3;&#x4E48;if&#x7684;&#x5224;&#x65AD;&#x5C31;&#x4E3A;&#x771F;&#x3002;</p>
-<p>&#x6211;&#x4E2A;&#x4EBA;&#x7684;&#x7406;&#x89E3;&#x662F;&#x628A;&#x8FD9;&#x4E24;&#x7AD6;&#x60F3;&#x8C61;&#x6210;&#x7535;&#x8DEF;&#x7684;<strong>&#x5E76;&#x8054;</strong>,&#x76F4;&#x8981;&#x6709;&#x4E00;&#x8DEF;&#x65F6;&#x901A;&#x7684;, &#x90A3; {} &#x8FD9;&#x4E2A;&#x706F;&#x6CE1;&#x91CC;&#x7684;&#x7A0B;&#x5E8F;&#x5C31;&#x4F1A;&#x4EAE;. &#x5F53;&#x7136;&#x8FD8;&#x6709;&#x7C7B;&#x4F3C;<strong>&#x4E32;&#x8054;</strong>&#x7684;&#x5224;&#x65AD;&#xFF0C;&#x4E4B;&#x540E;&#x7EC6;&#x8BB2;&#x903B;&#x8F91;&#x5224;&#x65AD;&#x91CC;&#x4F1A;&#x78B0;&#x5230;&#x3002;</p>
-<p>&#x771F;&#x4E0E;&#x5047;&#xFF08; true&#xFF0C;false &#xFF09;&#x505A;&#x4E3A;&#x5E03;&#x5C14; boolean &#x8FD9;&#x4E2A;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;if()&#x91CC;&#x53EA;&#x63A5;&#x53D7;&#x8FD9;&#x4E2A;&#x6570;&#x636E;&#x7C7B;&#x578B;,&#x6765;&#x4F5C;&#x51FA;&#x771F;&#x5047;&#x5224;&#x65AD;&#x3002;</p>
-<p>boolean &#x6765;&#x81EA;&#x6570;&#x5B66;&#x5BB6;&#x5E03;&#x5C14; Bool &#x7684;&#x540D;&#x5B57;, &#x662F;&#x5E03;&#x5C14;&#x8BA9;&#x903B;&#x8F91;&#x5177;&#x6709;&#x4E86;&#x6570;&#x5B66;&#x7684;&#x8FD0;&#x7B97;&#x53EF;&#x80FD;,&#x56E0;&#x6B64;&#x624D;&#x4F1A;&#x6709;&#x4E86;&#x4ECA;&#x5929;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x8BA1;&#x7B97;&#x3002;</p>
-<p>&#x56E0;&#x4E3A;&#x8BA1;&#x7B97;&#x673A;&#x53EA;&#x61C2;&#x5F97;&#x5F00;&#x548C;&#x5173;&#x7684;&#x4FE1;&#x53F7;,&#x4E5F;&#x5C31;&#x662F;0&#x548C;1,&#x4E5F;&#x5C31;&#x662F;&#x5E38;&#x542C;&#x5230;&#x7684;&#x6BD4;&#x7279;, &#x6839;&#x636E;&#x9999;&#x6D53;&#x7684;&#x4FE1;&#x606F;&#x7406;&#x8BBA;&#xFF0C;bit &#x662F;&#x6700;&#x5C0F;&#x7684;&#x4FE1;&#x606F;&#x5355;&#x4F4D;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A;&#x7535;&#x8111;&#x7684;&#x4E2D;&#x592E;&#x5904;&#x7406;&#x5668; CPU (Center Processing Uinit)&#x60F3;&#x8C61;&#x6210;&#x7531;&#x5F88;&#x591A;&#x4E2A;&#x7EE7;&#x7535;&#x5668;&#x6784;&#x6210;&#x7684;&#x4E1C;&#x897F;,&#x5B83;&#x5728;&#x505A;&#x7740;&#x4E8C;&#x8FDB;&#x5236;&#x7684;&#x8FD0;&#x7B97;&#xFF0C;&#x5904;&#x7406;&#x8FD9;&#x4EE5;bit &#x4E3A;&#x5355;&#x4F4D;&#x7684;&#x4FE1;&#x606F;&#x3002;</p>
-<p>&#x53EF;&#x53C2;&#x89C1;&#x674E;&#x6C38;&#x4E50;&#x8001;&#x5E08;&#x8BB2; <a href="https://www.youtube.com/watch?v=pUwYvJtfbsY">&#x7535;&#x8111;&#x82AF;&#x7247;&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x52A0;&#x6CD5;</a></p>
-<p>&#x6240;&#x4EE5;&#x5F53;&#x6EE1;&#x8DB3;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x7684;&#x540C;&#x65F6;&#xFF0C;&#x7403;&#x5F80;&#x76F8;&#x53CD;&#x7684;&#x65B9;&#x5411;&#x8FD0;&#x52A8;</p>
-<p><code>`</code>  xspeed = xspeed * -1;</p>
-<pre><code>
-&#x901A;&#x8FC7;&#x4E58;&#x4EE5;&#x8D1F;&#x4E00;&#xFF0C;&#x8FD9;&#x4E2A;&#x7B97;&#x6CD5;&#x975E;&#x5E38;&#x5FAE;&#x5999;&#x3002; 
+// Example 7-3: Bouncing ball with functions
+
+// Declare all global variables (stays the same)
+float x = 0;
+float  y = 0;
 
 
+float xspeed =2.5;
+float  yspeed = 1;
 
-## &#x56FE;&#x50CF;
+// Setup does not change
+void setup() {
+  size(640, 360);
+}
 
+void draw() {
+  background(255);
+  move(); // Instead of writing out all the code about the ball is draw(), we simply call three functions. How do we know the names of these functions? We made them up!
+  bounce();
+  display();
+}
 
-&#x6700;&#x540E;&#x753B;&#x51FA;&#x5706;&#x7684;&#x7A0B;&#x5E8F;&#x6307;&#x4EE4; ellipse(); &#x4EE5;&#x53CA;&#x4E4B;&#x524D;&#x7684;&#x51E0;&#x884C;&#x4EE3;&#x7801;</code></pre><pre><code>     // Display circle at x location
-     stroke(0);
-     strokeWeight(2);
-     fill(127);
-     ellipse(x, y, 48, 48);</code></pre><p><code>`</code></p>
-<p>ellipse &#x5355;&#x8BCD;&#x662F;&#x692D;&#x5706;&#x7684;&#x610F;&#x601D;,&#x4E3A;&#x4EC0;&#x4E48;&#x753B;&#x9762;&#x91CC;&#x662F;&#x5706;&#x5462;?</p>
-<p>&#x770B;&#x540E;&#x4E24;&#x4F4D;<strong>&#x53C2;&#x6570;</strong>(parameter)&#x90FD;&#x662F;48, &#x8FD9;&#x5176;&#x5B9E;&#x662F;&#x77E9;&#x5F62;&#x7684;&#x903B;&#x8F91;,&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x5176;&#x5B9E;&#x5E76;&#x6CA1;&#x6709;&#x5728;&#x753B;&#x4E00;&#x4E2A;&#x6839;&#x636E;&#x534A;&#x5F84;&#x6765;&#x8BA1;&#x7B97;&#x7684;&#x5706;&#x578B;, &#x800C;&#x662F;&#x5E26;&#x6709;&#x5706;&#x89D2;&#x7684;&#x65B9;&#x5F62;;&#x524D;&#x4E24;&#x4F4D;&#x53C2;&#x6570;&#x5C31;&#x662F;&#x8FD9;&#x4E2A;&#x201C;&#x5706;&#x201D;&#x5F53;&#x524D;&#x7684;&#x4F4D;&#x7F6E;&#x3002;</p>
-<p>&#x524D;&#x4E09;&#x884C;&#x662F;&#x5173;&#x4E8E;&#x8FD9;&#x5706;&#x7684;&#x5C5E;&#x6027;,fill()&#x662F;&#x7740;&#x8272;,stroke() &#x662F;&#x5BF9;&#x8C61;&#x8FB9;&#x7684;&#x989C;&#x8272;, strokeWeight()&#x662F;&#x8FB9;&#x7684;&#x5BBD;&#x5EA6;&#x3002; &#x8BD5;&#x7740;&#x5C06;&#x5C0F;&#x62EC;&#x53F7;&#x91CC;&#x7684;&#x53C2;&#x6570;&#x6539;&#x6539;&#x3002;</p>
-<h2 id="-">&#x6CE8;&#x89E3;</h2>
-<p>&#x5E94;&#x8BE5;&#x5DF2;&#x7ECF;&#x6CE8;&#x610F;&#x5230;&#x6709;&#x4E00;&#x4E9B;&#x5F00;&#x5934; // &#x7684;&#x8BED;&#x53E5;&#xFF0C;&#x8FD9;&#x4E9B;&#x8BED;&#x53E5;&#x7684;&#x5185;&#x5BB9;&#x4E3B;&#x8981;&#x662F;&#x7A0B;&#x5E8F;&#x5458;&#x7ED9;&#x4EBA;&#x770B;&#x7684;&#xFF0C;&#x51E1;&#x4E8B;&#x662F;&#x6807;&#x6709; // &#x7684;&#x8BED;&#x53E5;&#x7535;&#x8111;&#x5728;<strong>&#x7F16;&#x8BD1;</strong>&#x7684;&#x65F6;&#x5019;&#x4E00;&#x5F8B;&#x8D8A;&#x8FC7;&#x3002;</p>
-<h2 id="-">&#x603B;&#x7ED3;</h2>
-<p>&#x57FA;&#x672C;&#x4E0A;&#x5173;&#x4E8E;&#x8FD9;&#x4E2A;&#x7403;&#x662F;&#x5982;&#x4F55;&#x8FD0;&#x884C;&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x6839;&#x636E;&#x4EE3;&#x7801;&#x7684;&#x987A;&#x5E8F;&#x5DF2;&#x8D70;&#x4E86;&#x4E00;&#x904D;&#xFF1A;</p>
-<p>&#x9996;&#x5148;&#x521D;&#x59CB;&#x4F4D;&#x7F6E;&#x7684;&#x8BBE;&#x5B9A;,&#x5728;&#x4E00;&#x4E2A;&#x9650;&#x5B9A;&#x7684;&#x753B;&#x6846;&#x91CC;&#x8FD0;&#x52A8;,&#x968F;&#x7740;&#x7A0B;&#x5E8F;&#x5E27;&#x91CC;&#x7684;&#x53D8;&#x91CF;&#x53D8;&#x5316;,&#x540C;&#x65F6;&#x505A;&#x4E86;&#x5224;&#x65AD;,&#x8BA9;&#x5B83;&#x4E0D;&#x4F1A;&#x8DD1;&#x51FA;&#x753B;&#x9762;,&#x53EA;&#x8981;&#x7A0B;&#x5E8F;&#x4E0D;&#x5173;,&#x4E0D;&#x65AD;&#x7535;,&#x7403;&#x6C38;&#x8FDC;&#x5728;&#x52A8;&#x3002;</p>
-<p>&#x5728;&#x8FD9;&#x4E2A;&#x4EC5;&#x6709;32&#x884C;&#x7684;&#x4EE3;&#x7801;&#x91CC;&#xFF0C;&#x5DF2;&#x7ECF;&#x56CA;&#x62EC;&#x4E86;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x6700;&#x57FA;&#x672C;&#x5185;&#x5BB9;&#x3002;</p>
-<ol>
-<li>&#x7ED3;&#x6784;</li>
-<li>&#x521D;&#x59CB;</li>
-<li>&#x53D8;&#x91CF;</li>
-<li>&#x8FD0;&#x884C;<ul>
-<li>&#x5E27;&#x4E0E;&#x7A0B;&#x5E8F;&#x5E27;</li>
-<li>&#x8FD0;&#x7B97;</li>
-<li>&#x903B;&#x8F91;&#x5224;&#x65AD;</li>
-</ul>
-</li>
-<li>&#x56FE;&#x50CF;</li>
-<li>&#x6CE8;&#x89E3;</li>
-</ol>
-<p>&#x6700;&#x540E;&#x6211;&#x4EEC;&#x62FF;&#x6389; <code>draw(){}</code> &#x91CC;&#x5730;&#x4E00;&#x884C;&#x7684;<code>background();</code> ,&#x770B;&#x770B;&#x4F1A;&#x53D1;&#x751F;&#x4EC0;&#x4E48;?</p>
-<p><strong>&#x57FA;&#x672C;&#x6982;&#x5FF5;</strong>:&#x5E27;&#x3001;&#x7A0B;&#x5E8F;&#x5E27;&#x3001;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3001;&#x51FD;&#x6570;&#x3001;&#x5E03;&#x5C14;&#x3001;&#x6D6E;&#x70B9;&#x6570;&#x3001;&#x6574;&#x6570;&#x3001;&#x53D8;&#x91CF;&#x3001;&#x53C2;&#x6570;&#x3001;&#x6307;&#x4EE4;&#x3001;&#x903B;&#x8F91;&#x5224;&#x65AD;&#x3001;&#x903B;&#x8F91;&#x8FD0;&#x7B97;&#x3001;&#x7B1B;&#x5361;&#x5C14;&#x5750;&#x6807;&#x3001;&#x4E8C;&#x8FDB;&#x5236;</p>
+// Where should functions be placed?
+// You can define your functions anywhere in the code outside of setup() and draw().
+// However, the convention is to place your function definitions below draw().
+
+// A function to move the ball
+void move() {
+  // Change the x location by speed
+  x = x + xspeed;
+  y = y + yspeed;
+}
+
+// A function to bounce the ball
+void bounce() {
+  // If we&#x2019;ve reached an edge, reverse speed
+  if ((x &gt; width) || (x &lt; 0)) {
+    xspeed = xspeed * - 1;
+  }
+  if ((y &gt; height) || (y &lt; 0)) {
+    yspeed = yspeed * -1;
+  }
+}
+
+// A function to display the ball
+void display() {
+  stroke(0);
+  fill(175);
+  ellipse(x, y, 32, 32);
+}</code></pre>
+<p>&#x81F3;&#x4E8E;&#x5982;&#x4F55;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5C01;&#x88C5;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x5C01;&#x88C5;&#xFF0C;&#x4E5F;&#x662F;&#x56E0;&#x4EBA;&#x800C;&#x5F02;&#x7684;&#xFF0C;&#x76EE;&#x7684;&#x4E3A;&#x7684;&#x662F;&#x4F60;&#x5728;&#x5199;&#x4EE3;&#x7801;&#x7684;&#x65F6;&#x5019;&#x80FD;&#x6709;&#x4E00;&#x4E2A;&#x6E05;&#x6670;&#x7684;&#x601D;&#x8DEF;&#xFF0C;&#x4E4B;&#x540E;&#x56DE;&#x770B;&#x4EE3;&#x7801;&#x7684;&#x65F6;&#x5019;&#x4E5F;&#x4E00;&#x76EE;&#x4E86;&#x7136;&#x3002;</p>
+<h2 id="-">&#x56DE;&#x62A5;/&#x8FD4;&#x56DE;&#x503C;</h2>
+<p>&#x51E1;&#x662F;&#x770B;&#x5230; Void &#x6253;&#x5934;&#x7684;&#x51FD;&#x6570;&#x5B9A;&#x4E49;&#xFF0C;&#x53EA;&#x6267;&#x884C;&#x5185;&#x90E8;&#x6307;&#x4EE4;&#xFF0C;&#x5B83;&#x7684;&#x56DE;&#x62A5;&#x4E3A;&#x201C;&#x7A7A;&#x201D;&#x3002; &#x5982;&#x679C;&#x662F;&#x6839;&#x636E;&#x8F93;&#x5165;&#xFF0C;&#x83B7;&#x5F97;&#x67D0;&#x4E2A;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x503C;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x4E00;&#x5B9A;&#x8981;&#x6307;&#x5B9A;&#x5176;&#x56DE;&#x62A5;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;(return DataType)&#x3002;</p>
+<pre><code class="language-java">
+// Learning Processing
+// Daniel Shiffman
+// http://www.learningprocessing.com
+
+// Example 7-4: Using a function that returns a value, distance
+
+void setup() {
+  size(200, 200);
+}
+
+void draw() {
+  background(255);
+  stroke(0);
+
+  float d = distance(width/2, height/2, mouseX, mouseY);
+  fill(d*3, d*2, d);
+  ellipseMode(CENTER);
+  ellipse(width/2, height/2, 100, 100);
+}
+
+float distance(float x1, float y1, float x2, float y2) {
+  float dx = x1 - x2;
+  float dy = y1 - y2;
+  float d = sqrt(dx*dx + dy*dy);
+  return d;
+}</code></pre>
+<p>&#x5F53;&#x9F20;&#x6807;&#x4E0E;&#x7403;&#x4F53;&#x4E2D;&#x5FC3;&#x70B9;&#x7684;&#x4F4D;&#x7F6E;&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;&#x53D1;&#x751F;&#x53D8;&#x5316;&#xFF0C;&#x7403;&#x7684;&#x989C;&#x8272;&#x4E5F;&#x968F;&#x4E4B;&#x53D8;&#x5316;&#x3002;&#x8FD9;&#x91CC;&#x81EA;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x51FD;&#x6570; <code>distance()</code> &#x3002; &#x5B83;&#x7684;&#x56DE;&#x62A5;&#x7C7B;&#x578B;&#x662F;&#x6D6E;&#x70B9;&#x6570;&#x5373;&#x5C0F;&#x6570;&#x3002; &#x5176;&#x5185;&#x90E8;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x5C0F;&#x5B66;&#x7684;&#x6570;&#x5B66;&#x77E5;&#x8BC6;<strong>&#x52FE;&#x80A1;&#x5B9A;&#x7406;</strong>&#x3002;</p>
+<pre><code class="language-java">float distance(float x1, float y1, float x2, float y2) {
+  float dx = x1 - x2;
+  float dy = y1 - y2;
+  float d = sqrt(dx*dx + dy*dy);
+  return d;
+}</code></pre>
+<p>&#x6211;&#x4EEC;&#x628A;&#x51FD;&#x6570;&#x62EC;&#x53F7;&#x91CC;&#x7684;&#x503C;&#x79F0;&#x4E4B;&#x4E3A;<strong>&#x53C2;&#x6570;</strong> parameter, &#x6709;&#x65F6;&#x4F60;&#x4F1A;&#x5728;&#x5176;&#x4ED6;&#x4E00;&#x4E9B;&#x5730;&#x65B9;&#x770B;&#x5230;&#x53EB;&#x4F5C; argument &#x3002; &#x4ED6;&#x4EEC;&#x7684;&#x533A;&#x522B;&#x662F;&#xFF1A;&#x5F53;&#x5728;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x53EB;<strong>&#x5F62;&#x53C2;</strong> parameter ,&#x5F53;&#x8C03;&#x7528;&#x51FD;&#x6570;&#x65F6;&#x8F93;&#x5165;&#x7684;&#x503C;&#x53EB;&#x4F5C;<strong>&#x5B9E;&#x53C2;</strong> argument &#x3002;</p>
+<pre><code class="language-java">float distance(float x1, float y1, float x2, float y2)</code></pre>
+<p>&#x8FD9;&#x91CC;&#x5B9A;&#x4E49;&#x7684;x1, y1, x2, y2 &#x6211;&#x4EEC;&#x53EB; &#x201C;parameter&#x201D;&#x3002;</p>
+<pre><code class="language-java">distance(width/2, height/2, mouseX, mouseY);</code></pre>
+<p>&#x5B9E;&#x9645;&#x8C03;&#x7528;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x628A; width/2, height/2, mouseX, mouseY &#x53EB;&#x4F5C; &#x201C;argument&#x201D; &#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x56DE;&#x4EE5;&#x4E0B;&#x52FE;&#x80A1;&#x5B9A;&#x7406;&#xFF0C;&#x4E25;&#x683C;&#x7684;&#x5E94;&#x79F0;&#x4E4B;&#x4E3A;&#x201C;&#x6BD5;&#x8FBE;&#x54E5;&#x62C9;&#x65AF;&#x5B9A;&#x7406;&#xFF08;&#xFF08;Pythagoras theorem&#xFF09;&#x201D;&#x5373;</p>
+<p>![](assets/ &#x7B2C;&#x4E8C;&#x7AE0; &#x51FD;&#x6570;-16f8946b.png)</p>
+<p>&#x5728; Processing &#x7684;&#x5750;&#x6807;&#x7CFB;&#x91CC;&#xFF0C;&#x5C06;&#x4E24;&#x70B9;&#x5206;&#x522B;&#x5728;&#x6A2A;&#x8F74;&#x548C;&#x7EB5;&#x8F74;&#x4E0A;&#x7684;&#x4F4D;&#x7F6E;&#x76F8;&#x51CF;&#xFF0C;&#x6240;&#x83B7;&#x5F97;&#x7684;&#x5DEE;&#xFF0C;&#x5373;&#x4E24;&#x6761;&#x76F4;&#x89D2;&#x8FB9;&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;<code>sqrt()</code>&#x6C42;&#x5176;&#x5E73;&#x65B9;&#x6839;&#xFF08;square root)&#x3002;</p>
+<pre><code>float dx = x1 - x2;
+float dy = y1 - y2;
+float d = sqrt(dx*dx + dy*dy);</code></pre><p>&#x6700;&#x540E;&#x8D4B;&#x503C;&#x7ED9;&#x53D8;&#x91CF; d , &#x901A;&#x8FC7;
+<code>return</code> &#x56DE;&#x62A5;&#x8BE5;&#x53D8;&#x91CF;&#x7ED9;&#x5916;&#x90E8;&#x3002;</p>
+<p>&#x8FD9;&#x91CC;&#x8BF7;&#x6CE8;&#x610F;&#xFF01;&#x4F60;&#x4F1A;&#x5728;&#x7A0B;&#x5E8F;&#x91CC;&#x53D1;&#x73B0;&#x4E24;&#x4E2A;&#x53EB;&#x4F5C; d &#x7684;&#x53D8;&#x91CF;&#x3002; &#x4ED6;&#x4EEC;&#x540C;&#x4E3A;&#x6570;&#x636E;&#x7C7B;&#x578B; float&#x3002; &#x5BF9;&#x4E8E;&#x7A0B;&#x5E8F;&#x6765;&#x8BF4;&#xFF0C;&#x53D8;&#x91CF;&#x5206;&#x4E3A;<strong>&#x5168;&#x5C40;&#x53D8;&#x91CF;</strong>(global variable)&#x548C;<strong>&#x5C40;&#x90E8;&#x53D8;&#x91CF;</strong>(local variable)&#xFF0C;&#x5982;&#x679C;&#x662F;&#x5728;&#x51FD;&#x6570;&#x5916;&#x7684;&#xFF0C;&#x6BD4;&#x5982;&#x5199;&#x5728;&#x7A0B;&#x5E8F;&#x6700;&#x6295;&#x4E0A;&#x7684;&#xFF0C;&#x662F;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#xFF1B; &#x5199;&#x5728;&#x51FD;&#x6570;&#x5185;&#x7684;&#x4E00;&#x5B9A;&#x662F;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x3002;&#x4ED6;&#x4EEC;&#x7684;&#x4F5C;&#x7528;&#x57DF;&#x662F;&#x4E0D;&#x540C;&#x7684;&#xFF0C;&#x4F5C;&#x4E3A;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x4EE3;&#x7801;&#x7684;&#x4EFB;&#x4F55;&#x5730;&#x65B9;&#x83B7;&#x53D6;&#x8C03;&#x7528;&#xFF0C;&#x4F46;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x53EA;&#x80FD;&#x662F;&#x5728;&#x5176;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x3002; &#x6240;&#x4EE5;&#x4E24;&#x4E2A;&#x53D8;&#x91CF;d &#x4F5C;&#x4E3A;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x5E76;&#x4E0D;&#x51B2;&#x7A81;&#x3002;</p>
+<p>&#x5176;&#x5B9E; Processing &#x6709;&#x4E00;&#x4E2A;&#x81EA;&#x5E26;&#x51FD;&#x6570; <code>dist()</code>, &#x900F;&#x8FC7;&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#x7AA5;&#x770B;&#x5176;&#x201C;&#x9ED1;&#x7BB1;&#x201D;&#x7684;&#x5185;&#x90E8;&#x3002; &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x6709;&#x7528;&#x7684;&#x51FD;&#x6570;&#x3002; &#x540C;&#x65F6;&#x8981;&#x611F;&#x53F9;&#x4E00;&#x4E0B;&#x53E4;&#x4EBA;&#x7684;&#x667A;&#x6167;&#xFF0C;&#x636E;&#x8BF4;&#x5728;&#x6BD5;&#x8FBE;&#x54E5;&#x62C9;&#x65AF;&#x7684;&#x624B;&#x7A3F;&#x5185;&#x5C3D;&#x7136;&#x53D1;&#x73B0;&#x4E86;&#x5FAE;&#x79EF;&#x5206;&#xFF01; </p>
 </article></div><div style="background-color: #b4b2b2;width: 50px;height:50px;line-height: 50px;text-align: center;position: fixed;bottom: 10px;right: 10px;padding-top:5px;" onclick="document.documentElement.scrollTop = document.body.scrollTop =0;">
   <svg t="1533629773982" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1035" xlink="http://www.w3.org/1999/xlink" width="40" height="40"><defs><style type="text/css">@font-face { font-family: uc-nexus-iconfont; src: url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff") format("woff"), url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf") format("truetype"); }
   </style></defs><path d="M536.255427 195.182354c-7.804756-7.804756-17.966187-11.615549-28.311813-11.615549-9.43693 0-18.874883 3.449565-26.496467 10.163477-2.360767 1.452071-4.356214 3.267417-6.352685 5.262864L218.47792 455.611735c-15.607466 15.60542-15.607466 40.834011 0 56.43943 15.607466 15.607466 41.558511 15.607466 57.167001 0l193.46013-192.733583 0 600.526219c0 22.1423 17.787108 39.927361 39.927361 39.927361 22.140253 0 39.927361-17.785062 39.927361-39.927361L548.959773 319.317583 737.15704 508.422522c15.607466 15.607466 40.469714 15.607466 56.078203 0 15.607466-15.607466 15.425318-40.834011-0.182149-56.441477L536.255427 195.182354 536.255427 195.182354z" p-id="1036" fill="#333"/><path d="M101.784174 143.097092l816.674071 0c22.140253 0 39.925315-17.785062 39.925315-39.927361 0-22.140253-17.784038-39.925315-39.925315-39.925315L101.784174 63.244416c-22.140253 0-39.927361 17.785062-39.927361 39.925315C61.856813 125.31203 79.643921 143.097092 101.784174 143.097092L101.784174 143.097092z" p-id="1037" fill="#333"/></svg>
