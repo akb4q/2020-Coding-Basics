@@ -9,9 +9,9 @@
 ## 目录
 * [对象](https://github.com/akb4q/2020-Programming-Basics-#%E5%AF%B9%E8%B1%A1)
 * [语言和工具](https://github.com/akb4q/2020-Programming-Basics-#%E8%AF%AD%E8%A8%80%E5%92%8C%E5%B7%A5%E5%85%B7)
-  * Markdown
-  * Github
-  * Processing
+  * [Markdown](https://github.com/akb4q/2020-Programming-Basics-#markdown)
+  * [Github](https://github.com/akb4q/2020-Programming-Basics-#github)
+  * [Processing](https://github.com/akb4q/2020-Programming-Basics-#processing)
 
 * [学习方法](https://github.com/akb4q/2020-Programming-Basics-#%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95)
 * [关于一些](https://github.com/akb4q/2020-Programming-Basics-#%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B)
@@ -25,7 +25,7 @@
 
 [Markdown](https://www.markdown.cn/) 是在第一周里，我希望大家学习的第一个编程语言。就像我现在写的这个文本，就是用 Markdown 生成的 。
 
-严格来说 Markdown 类似于 [HTML](https://zh.wikipedia.org/zh-cn/HTML)  ，是一种标记语言。语法[非常简单](https://www.markdownguide.org/cheat-sheet/)。但是问题来了，通过文本编辑器不是也一样很方便的可以书写吗？
+严格来说 Markdown 类似于 [HTML](https://zh.wikipedia.org/zh-cn/HTML)  ，是一种标记语言(Markup Language)。语法[非常简单](https://www.markdownguide.org/cheat-sheet/)。但是问题来了，通过文本编辑器不是也一样很方便的可以书写吗？
 
 如果只是本地书写，不需要转换成网页，确实不用学。毕竟学习任何一门新的语言都要学习新语法，会有一条学习曲线，这非常讨厌！
 
