@@ -81,6 +81,8 @@ Mac 平台
 
 第一章 [逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
 
+第二章 [函数](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%20%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%87%BD%E6%95%B0.md)
+
 
 相关：
 
