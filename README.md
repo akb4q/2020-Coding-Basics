@@ -25,7 +25,7 @@
 
 [Markdown](https://www.markdown.cn/) 是在第一周里，我希望大家学习的第一个编程语言。就像我现在写的这个文本，就是用 Markdown 生成的 。
 
-严格来说 Markdown 类似于 [HTML](https://zh.wikipedia.org/zh-cn/HTML)  ，是一种标记语言(Markup Language)。语法[非常简单](https://www.markdownguide.org/cheat-sheet/)。但是问题来了，通过文本编辑器不是也一样很方便的可以书写吗？
+严格来说 Markdown 类似于 [HTML](https://zh.wikipedia.org/zh-cn/HTML)  ，是一种标记语言(Markup Language)。语法[非常简单](https://www.markdownguide.org/cheat-sheet/)。但是通过文本编辑器不是也一样很方便的可以书写吗？
 
 如果只是本地书写，不需要转换成网页，确实不用学。毕竟学习任何一门新的语言都要学习新语法，会有一条学习曲线，这非常讨厌！
 
