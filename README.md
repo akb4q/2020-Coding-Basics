@@ -88,6 +88,8 @@ Mac 平台
 
 第二章 [函数](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%20%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%87%BD%E6%95%B0.md)
 
+第三章 [类的创建](https://github.com/akb4q/2020-Coding-Basics/blob/master/Processing%20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E7%9A%84%E5%88%9B%E5%BB%BA.md)
+
 
 相关：
 
