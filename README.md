@@ -6,6 +6,8 @@
 
 如何自由支配？完全取决与个人的兴趣，无论线上还是线下，应该都是一样的。任何高效率的学习来自于专注，专注来自兴趣。
 
+基于网上现存大量的关于编程的学习资源，该教程有其明确的学习方法和路径，不重复造轮子，但造车子。通过逆向工程思路，从一个项目出发，用新的知识点使其不断的进化，演变，让学习变得更有趣，更带破解感。 
+
 ## 目录
 * [对象](https://github.com/akb4q/2020-Programming-Basics-#%E5%AF%B9%E8%B1%A1)
 * [语言和工具](https://github.com/akb4q/2020-Programming-Basics-#%E8%AF%AD%E8%A8%80%E5%92%8C%E5%B7%A5%E5%85%B7)
@@ -13,11 +15,15 @@
   * [Github](https://github.com/akb4q/2020-Programming-Basics-#github)
   * [Processing](https://github.com/akb4q/2020-Programming-Basics-#processing)
 
-* 学习内容
+
+
+* [学习内容](https://github.com/akb4q/2020-Coding-Basics#%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9)
   * 第一周 [逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
   * 第二周 [函数](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%20%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%87%BD%E6%95%B0.md)
   * 第三周 [类的创建](https://github.com/akb4q/2020-Coding-Basics/blob/master/Processing%20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E7%9A%84%E5%88%9B%E5%BB%BA.md)
   * 第四周 创作
+
+
 
 * [学习方法](https://github.com/akb4q/2020-Programming-Basics-#%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95)
 * [关于一些](https://github.com/akb4q/2020-Programming-Basics-#%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B)
@@ -139,6 +145,7 @@ Tip. 在 PDE 中，选择函数，然后 ```Cmd + f```，最迅速的在本地�
 1. Permanent Record
 2. Pull request
 3. 逆向工程
+4. 创作
 
 
 ### 关于习惯
