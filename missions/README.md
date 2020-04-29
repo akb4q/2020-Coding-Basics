@@ -15,7 +15,7 @@
 
 把你们上一任务里所完成文本，递交到 2020 Programming Basics 的 missions 目录下。
 
-完成这个任务的前提是你已经 Fork 了该项目，在你的 repoitory 里找到它。
+完成这个任务的前提是你已经 Fork 了该项目，在你的 repository 里找到它。
 
 点开 missions 文件夹 -> Create new file -> 创建文件名（记得后缀）-> 把你文本里的内容黏贴到里面，记得是 Markdown -> Propose New File , 记得标注你的名字 -> Create pull request
 
