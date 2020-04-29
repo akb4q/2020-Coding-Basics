@@ -1,12 +1,14 @@
 # 2020 编程基础
 
+## 说明
+
 网络给予我们自由。这意味着在疫情这个特殊时期里，可以被迫自由地支配学习时间。
 
 所以该课程不仅要学习编程基础的知识，并且通过学习，感受自由支配所带来的乐趣。
 
 如何自由支配？完全取决与个人的兴趣，无论线上还是线下，应该都是一样的。任何高效率的学习来自于专注，专注来自兴趣。
 
-基于网上现存大量的关于编程的学习资源，该教程有其明确的学习方法和路径，不重复造轮子，但造车子。通过逆向工程思路，从一个项目出发，用新的知识点使其不断的进化，演变，让学习变得更有趣，更带破解感。 
+基于网上现存大量的关于编程的学习资源，该教程有其明确的学习方法和路径，不重复造轮子，但造车子。通过逆向工程思路，从一个原型项目出发，用新的知识点使其不断的进化，演变，让学习变得更有趣，更带破解感。
 
 ## 目录
 * [对象](https://github.com/akb4q/2020-Programming-Basics-#%E5%AF%B9%E8%B1%A1)
@@ -104,11 +106,11 @@ Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb
 
 ## 学习内容
 
-第一周 [逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
+第一周 [第一章 逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
 
-第二周 [函数](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%20%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%87%BD%E6%95%B0.md)
+第二周 [第二章 函数](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%20%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%87%BD%E6%95%B0.md)
 
-第三周 [类的创建](https://github.com/akb4q/2020-Coding-Basics/blob/master/Processing%20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E7%9A%84%E5%88%9B%E5%BB%BA.md)
+第三周 [第三章 类的创建](https://github.com/akb4q/2020-Coding-Basics/blob/master/Processing%20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E7%9A%84%E5%88%9B%E5%BB%BA.md)
 
 第四周 创作
 
