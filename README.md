@@ -18,7 +18,7 @@
 
 1. [对象](https://github.com/akb4q/2020-Programming-Basics-#%E5%AF%B9%E8%B1%A1)
 
-2. [语言和工具](https://github.com/akb4q/2020-Programming-Basics-#%E8%AF%AD%E8%A8%80%E5%92%8C%E5%B7%A5%E5%85%B7))
+2. [语言和工具](https://github.com/akb4q/2020-Programming-Basics-#%E8%AF%AD%E8%A8%80%E5%92%8C%E5%B7%A5%E5%85%B7)
 
 3. [学习内容](https://github.com/akb4q/2020-Coding-Basics#%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9)
 
