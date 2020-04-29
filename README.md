@@ -83,12 +83,15 @@ Mac 平台
 
 再补充一点，Processing 是基于 java 的语言，其实我们就是在学java, 它是跨平台的，意味着任何主流操作平台都能跑。但和 java 相关的 IDE(Integrated Development Environment)比如 Eclipse, 对于初学者来说太过复杂，功能多也意味着不简洁。Processing 有自己的针对初学者所开发的 [PDE](https://processing.org/download/), 且非常友好。
 
+## 内容
 
-第一章 [逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
+第一周 [逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
 
-第二章 [函数](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%20%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%87%BD%E6%95%B0.md)
+第二周 [函数](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%20%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%87%BD%E6%95%B0.md)
 
-第三章 [类的创建](https://github.com/akb4q/2020-Coding-Basics/blob/master/Processing%20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E7%9A%84%E5%88%9B%E5%BB%BA.md)
+第三周 [类的创建](https://github.com/akb4q/2020-Coding-Basics/blob/master/Processing%20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E7%9A%84%E5%88%9B%E5%BB%BA.md)
+
+第四周 创作
 
 
 相关：
