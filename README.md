@@ -10,33 +10,42 @@
 
 基于网上现存大量的关于编程的学习资源，该教程有其明确的学习方法和路径，不重复造轮子，但造车子。通过逆向工程思路，从一个原型项目出发，用新的知识点使其不断的进化，演变，让学习变得更有趣，更带破解感。
 
-教学只要平台主要围绕 Github 这个开源平台，方便代码管理和内容维护。结合即时聊天工具方便沟通。
+教学只要平台主要围绕 Github 这个在线开源平台，方便代码管理和内容维护。结合即时聊天工具方便沟通。
+
+
 
 ## 目录
-* [对象](https://github.com/akb4q/2020-Programming-Basics-#%E5%AF%B9%E8%B1%A1)
-* [语言和工具](https://github.com/akb4q/2020-Programming-Basics-#%E8%AF%AD%E8%A8%80%E5%92%8C%E5%B7%A5%E5%85%B7)
-  * [Markdown](https://github.com/akb4q/2020-Programming-Basics-#markdown)
-  * [Github](https://github.com/akb4q/2020-Programming-Basics-#github)
-  * [Processing](https://github.com/akb4q/2020-Programming-Basics-#processing)
+
+1. [对象](https://github.com/akb4q/2020-Programming-Basics-#%E5%AF%B9%E8%B1%A1)
+
+2. [语言和工具](https://github.com/akb4q/2020-Programming-Basics-#%E8%AF%AD%E8%A8%80%E5%92%8C%E5%B7%A5%E5%85%B7))
+
+3. [学习内容](https://github.com/akb4q/2020-Coding-Basics#%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9)
+
+4. [学习方法](https://github.com/akb4q/2020-Programming-Basics-#%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95)
+
+5. [关于一些](https://github.com/akb4q/2020-Programming-Basics-#%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B)
+
+6. [推荐书目](https://github.com/akb4q/2020-Programming-Basics-#%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%9B%AE)
 
 
 
-* [学习内容](https://github.com/akb4q/2020-Coding-Basics#%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9)
-  * 第一周 [逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
-  * 第二周 [函数](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%20%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%87%BD%E6%95%B0.md)
-  * 第三周 [类的创建](https://github.com/akb4q/2020-Coding-Basics/blob/master/Processing%20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E7%9A%84%E5%88%9B%E5%BB%BA.md)
-  * 第四周 创作
 
-
-
-* [学习方法](https://github.com/akb4q/2020-Programming-Basics-#%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95)
-* [关于一些](https://github.com/akb4q/2020-Programming-Basics-#%E5%85%B3%E4%BA%8E%E4%B8%80%E4%BA%9B)
-* [推荐书目](https://github.com/akb4q/2020-Programming-Basics-#%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%9B%AE)
 
 ## 对象
+
 零基础，艺术生
 
+
+
+
+
+
+
+
+
 ## 语言和工具
+
 ### Markdown
 
 [Markdown](https://www.markdown.cn/) 是在第一周里，我希望大家学习的第一个编程语言。就像我现在写的这个文本，就是用 Markdown 生成的 。
@@ -106,6 +115,8 @@ Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb
 
 在线视频学习 | Daniel Shiffman [Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction](https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=2)
 
+
+
 ## 学习内容
 
 第一周 [第一章 逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
@@ -123,6 +134,8 @@ Bouncing Balls 是我们学习的出发点，也视作原型代码。通过运�
 第四周 创作
 
 终于可以脱离原型代码了。通过创作文本给予设定，用仅有的知识获得技术上的限制，让限制成为通向自由创作的中介。
+
+
 
 ## 学习方法
 
@@ -148,12 +161,16 @@ Bouncing Balls 是我们学习的出发点，也视作原型代码。通过运�
 
 Tip. 在 PDE 中，选择函数，然后 ```Cmd + f```，最迅速的在本地手册中查找。 可能会有人抱怨手册没有中文汉化，但技术文档最好看英文，中文往往更难懂。把学编程，同时看作在学英文，这个时候有点“功利心” 不坏。
 
+
+
 ## 关于一些
+
 ### 关于考核
 
 只要完成每次所布置的基本任务，就完成考核。除了任务的完成度和质量，加分点都隐藏在了文本之中，但也不用刻意揣测，学习为了自己。
 
 任务集合（[更新中](https://github.com/akb4q/2020-Programming-Basics-/tree/master/missions)）
+
 1. Permanent Record
 2. Pull request
 3. 逆向工程
@@ -195,4 +212,4 @@ Tip. 在 PDE 中，选择函数，然后 ```Cmd + f```，最迅速的在本地�
 理论：
 
 -  [《机械复制时代的艺术》](https://book.douban.com/subject/1960256/)
-- [《理解媒介：论人的延伸》](https://book.douban.com/subject/6391212/)
+-  [《理解媒介：论人的延伸》](https://book.douban.com/subject/6391212/)
