@@ -117,7 +117,7 @@ Processing 历史 | [现代普罗米修斯](https://wemp.app/posts/d6c5b091-47cb
 
 ## 学习内容
 
-### 第一周 [第一章 逆向工程之 Bouncing Balls](https://github.com/akb4q/2020-Programming-Basics-/blob/master/Processing%20/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B9%8B%20Bouncing%20Ball.md)
+### 第一周 [第一章 逆向工程之 Bouncing Balls](https://bit.ly/2KQ9yvv)
 
 Bouncing Balls 是我们学习的出发点，也视作原型代码。通过运行程序，有助于我们读懂代码。读代码的顺序通常是自上而下，这也是电脑编译的顺序，当然也有例外。我们将从这段代码中学到编程语言一些最基本的概念，比如帧、程序帧、数据类型、函数、布尔、浮点数、整数、变量、参数、指令、逻辑判断、逻辑运算、笛卡尔坐标、二进制。可以发现其中不仅有编程的知识，还有数学和动画的知识点。
 
